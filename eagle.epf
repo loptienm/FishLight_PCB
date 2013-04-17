@@ -23,12 +23,11 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/Spa
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Resistors.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-RF.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/Mikes-Stuff.lbr"
 
 [Win_1]
 Type="Control Panel"
 Loc="532 306 1131 705"
-State=0
+State=2
 Number=0
 
 [Desktop]
