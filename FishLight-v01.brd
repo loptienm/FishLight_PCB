@@ -111,6 +111,41 @@
 <wire x1="0" y1="85.08" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="1.27" y1="1.27" x2="83.82" y2="83.82" layer="16"/>
 <rectangle x1="1.27" y1="1.27" x2="83.82" y2="83.82" layer="1"/>
+<text x="17.78" y="13.97" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">CW LED</text>
+<text x="7.62" y="15.24" size="1.27" layer="21" font="vector" ratio="15">CW</text>
+<text x="7.62" y="11.43" size="1.27" layer="21" font="vector" ratio="15">WW</text>
+<text x="7.62" y="7.62" size="1.27" layer="21" font="vector" ratio="15">BL</text>
+<text x="77.47" y="6.731" size="1.778" layer="21" font="vector" ratio="15" rot="R90">LED GND</text>
+<text x="7.62" y="76.2" size="1.27" layer="21" font="vector" ratio="15">GND</text>
+<text x="77.47" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R180">GND</text>
+<text x="77.47" y="53.34" size="1.27" layer="21" font="vector" ratio="15" rot="R180">5V</text>
+<text x="22.86" y="7.62" size="1.27" layer="21" font="vector" ratio="15" rot="R90">5V</text>
+<text x="19.558" y="7.62" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="77.47" y="45.72" size="1.27" layer="21" font="vector" ratio="15" rot="R180">3.3V</text>
+<text x="15.24" y="7.62" size="1.27" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
+<text x="77.47" y="64.77" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Aref</text>
+<text x="77.47" y="60.96" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Rst</text>
+<text x="77.47" y="57.15" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Vin</text>
+<text x="77.47" y="41.91" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A0</text>
+<text x="77.47" y="38.1" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A1</text>
+<text x="77.47" y="34.29" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A2</text>
+<text x="77.47" y="30.48" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A3</text>
+<text x="77.47" y="27.94" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A4</text>
+<text x="77.47" y="24.13" size="1.27" layer="21" font="vector" ratio="15" rot="R180">A5</text>
+<text x="7.62" y="26.67" size="1.27" layer="21" font="vector" ratio="15">D0</text>
+<text x="7.62" y="22.86" size="1.27" layer="21" font="vector" ratio="15">D1</text>
+<text x="7.62" y="30.48" size="1.27" layer="21" font="vector" ratio="15">D2</text>
+<text x="7.62" y="34.29" size="1.27" layer="21" font="vector" ratio="15">D3*</text>
+<text x="7.62" y="38.1" size="1.27" layer="21" font="vector" ratio="15">D4</text>
+<text x="7.62" y="41.91" size="1.27" layer="21" font="vector" ratio="15">D5*</text>
+<text x="7.62" y="45.72" size="1.27" layer="21" font="vector" ratio="15">D6*</text>
+<text x="7.62" y="49.53" size="1.27" layer="21" font="vector" ratio="15">D7</text>
+<text x="7.62" y="53.34" size="1.27" layer="21" font="vector" ratio="15">D8</text>
+<text x="7.62" y="57.15" size="1.27" layer="21" font="vector" ratio="15">D9*</text>
+<text x="7.62" y="60.96" size="1.27" layer="21" font="vector" ratio="15">D10*</text>
+<text x="7.62" y="64.77" size="1.27" layer="21" font="vector" ratio="15">D11*</text>
+<text x="7.62" y="68.58" size="1.27" layer="21" font="vector" ratio="15">D12</text>
+<text x="7.62" y="72.39" size="1.27" layer="21" font="vector" ratio="15">D13</text>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
@@ -280,7 +315,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SCREWTERMINAL-3.5MM-3_LOCK.007S">
+<package name="SCREWTERMINAL-3.5MM-3">
 <wire x1="-2.3" y1="3.4" x2="9.3" y2="3.4" width="0.2032" layer="21"/>
 <wire x1="9.3" y1="3.4" x2="9.3" y2="-2.8" width="0.2032" layer="21"/>
 <wire x1="9.3" y1="-2.8" x2="9.3" y2="-3.6" width="0.2032" layer="21"/>
@@ -294,32 +329,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="9.3" y1="3.15" x2="9.7" y2="3.15" width="0.2032" layer="51"/>
 <wire x1="9.7" y1="3.15" x2="9.7" y2="2.15" width="0.2032" layer="51"/>
 <wire x1="9.7" y1="2.15" x2="9.3" y2="2.15" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="0.425" width="0.001" layer="51"/>
-<circle x="3.5" y="0" radius="0.425" width="0.001" layer="51"/>
-<circle x="7" y="0" radius="0.425" width="0.001" layer="51"/>
-<pad name="1" x="-0.1778" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<pad name="3" x="7.1778" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SCREWTERMINAL-3.5MM-2">
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.413" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.413"/>
+<pad name="3" x="7" y="0" drill="1.2" diameter="2.413"/>
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
@@ -515,46 +527,190 @@ design rules under a new name.</description>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="82.55" y="82.55"/>
 <element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="82.55" y="2.54"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="21.59" y="-8.89"/>
-<element name="U1" library="Mikes-Stuff" package="DUEMILANOVE_SHIELD_NOHOLES" value="ARDUINO_SHIELDFLIPPED" x="11.43" y="83.82" rot="R180"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="58.42" y="-2.54"/>
+<element name="U1" library="Mikes-Stuff" package="DUEMILANOVE_SHIELD_NOHOLES" value="ARDUINO_SHIELDFLIPPED" x="15.24" y="83.82" rot="R180"/>
 <element name="U2" library="Mikes-Stuff" package="RTCBREAKOUT" value="RTCBREAKOUT" x="30.48" y="22.86" rot="R270"/>
-<element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="80.01" y="7.62" rot="R90"/>
-<element name="JP2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="5.08" y="24.13" rot="R270"/>
-<element name="JP3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="5.08" y="35.56" rot="R270"/>
-<element name="JP4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="5.08" y="46.99" rot="R270"/>
-<element name="JP5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="80.01" y="53.34" rot="R90"/>
-<element name="JP6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="80.01" y="41.91" rot="R90"/>
-<element name="JP7" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="80.01" y="30.48" rot="R90"/>
-<element name="JP8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3_LOCK.007S" value="" x="80.01" y="19.05" rot="R90"/>
-<element name="JP9" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="5.08" y="13.081" rot="R270"/>
+<element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="30.48" rot="R270"/>
+<element name="JP2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="41.91" rot="R270"/>
+<element name="JP3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="53.34" rot="R270"/>
+<element name="JP4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="64.77" rot="R270"/>
+<element name="JP5" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="76.2" rot="R270"/>
+<element name="JP6" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="81.28" y="45.72" rot="R90"/>
+<element name="JP7" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="81.28" y="34.29" rot="R90"/>
+<element name="JP8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="81.28" y="22.86" rot="R90"/>
+<element name="JP9" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="81.28" y="57.15" rot="R90"/>
+<element name="JP10" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="3.81" y="15.24" rot="R270"/>
+<element name="JP11" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="15.24" y="3.81"/>
+<element name="JP12" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="81.28" y="8.89" rot="R90"/>
 </elements>
 <signals>
 <signal name="SDA">
 <contactref element="U1" pad="A4"/>
 <contactref element="U2" pad="1"/>
-<wire x1="62.23" y1="31.75" x2="50.8" y2="20.32" width="0" layer="19" extent="1-1"/>
+<contactref element="JP8" pad="2"/>
+<wire x1="66.04" y1="31.75" x2="81.28" y2="26.36" width="0" layer="19" extent="1-1"/>
+<wire x1="50.8" y1="20.32" x2="66.04" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="A5"/>
 <contactref element="U2" pad="2"/>
-<wire x1="62.23" y1="29.21" x2="48.26" y2="20.32" width="0" layer="19" extent="1-1"/>
+<contactref element="JP8" pad="1"/>
+<wire x1="66.04" y1="29.21" x2="81.28" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="20.32" x2="66.04" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="GND@2"/>
 <contactref element="U1" pad="GND@1"/>
 <contactref element="U1" pad="GND@0"/>
 <contactref element="U2" pad="4"/>
-<wire x1="62.23" y1="52.07" x2="43.18" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="49.53" x2="62.23" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="66.04" x2="62.23" y2="52.07" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="1"/>
+<contactref element="JP6" pad="2"/>
+<contactref element="JP11" pad="2"/>
+<contactref element="JP12" pad="1"/>
+<contactref element="JP12" pad="2"/>
+<contactref element="JP12" pad="3"/>
+<wire x1="66.04" y1="49.53" x2="81.28" y2="49.22" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="52.07" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="20.32" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="18.74" y1="3.81" x2="43.18" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="15.89" x2="18.74" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="12.39" x2="81.28" y2="15.89" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="8.89" x2="81.28" y2="12.39" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="66.04" x2="66.04" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="76.2" x2="17.78" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="5V"/>
 <contactref element="U2" pad="5"/>
-<wire x1="62.23" y1="54.61" x2="40.64" y2="20.32" width="0" layer="19" extent="1-1"/>
+<contactref element="JP6" pad="3"/>
+<contactref element="JP11" pad="3"/>
+<wire x1="40.64" y1="20.32" x2="66.04" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="52.72" x2="40.64" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="22.24" y1="3.81" x2="81.28" y2="52.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SQW">
 <contactref element="U2" pad="3"/>
+</signal>
+<signal name="A0">
+<contactref element="U1" pad="A0"/>
+<contactref element="JP7" pad="3"/>
+<wire x1="66.04" y1="41.91" x2="81.28" y2="41.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A1">
+<contactref element="U1" pad="A1"/>
+<contactref element="JP7" pad="2"/>
+<wire x1="66.04" y1="39.37" x2="81.28" y2="37.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A2">
+<contactref element="U1" pad="A2"/>
+<contactref element="JP7" pad="1"/>
+<wire x1="66.04" y1="36.83" x2="81.28" y2="34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A3">
+<contactref element="U1" pad="A3"/>
+<contactref element="JP8" pad="3"/>
+<wire x1="66.04" y1="34.29" x2="81.28" y2="29.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RES">
+<contactref element="U1" pad="RES"/>
+<contactref element="JP9" pad="2"/>
+<wire x1="66.04" y1="59.69" x2="81.28" y2="60.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VIN">
+<contactref element="U1" pad="VIN"/>
+<contactref element="JP9" pad="1"/>
+<wire x1="66.04" y1="46.99" x2="81.28" y2="57.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="U1" pad="3.3V"/>
+<contactref element="JP6" pad="1"/>
+<contactref element="JP11" pad="1"/>
+<wire x1="81.28" y1="45.72" x2="66.04" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="3.81" x2="81.28" y2="45.72" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AREF">
+<contactref element="U1" pad="AREF"/>
+<contactref element="JP9" pad="3"/>
+<wire x1="81.28" y1="64.15" x2="17.78" y2="68.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D13">
+<contactref element="U1" pad="D13"/>
+<contactref element="JP5" pad="2"/>
+<wire x1="3.81" y1="72.7" x2="17.78" y2="63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D12">
+<contactref element="U1" pad="D12"/>
+<contactref element="JP5" pad="3"/>
+<wire x1="3.81" y1="69.2" x2="17.78" y2="60.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D11">
+<contactref element="U1" pad="D11"/>
+<contactref element="JP4" pad="1"/>
+<wire x1="3.81" y1="64.77" x2="17.78" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D10">
+<contactref element="U1" pad="D10"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="3.81" y1="61.27" x2="17.78" y2="55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D9">
+<contactref element="U1" pad="D9"/>
+<contactref element="JP4" pad="3"/>
+<wire x1="3.81" y1="57.77" x2="17.78" y2="53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D8">
+<contactref element="U1" pad="D8"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="3.81" y1="53.34" x2="17.78" y2="50.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D7">
+<contactref element="U1" pad="D7"/>
+<contactref element="JP3" pad="2"/>
+<wire x1="3.81" y1="49.84" x2="17.78" y2="46.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D6">
+<contactref element="U1" pad="D6"/>
+<contactref element="JP3" pad="3"/>
+<wire x1="3.81" y1="46.34" x2="17.78" y2="44.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D5">
+<contactref element="U1" pad="D5"/>
+<contactref element="JP2" pad="1"/>
+<wire x1="3.81" y1="41.91" x2="17.78" y2="41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D4">
+<contactref element="U1" pad="D4"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="3.81" y1="38.41" x2="17.78" y2="39.37" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D3">
+<contactref element="U1" pad="D3"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="3.81" y1="34.91" x2="17.78" y2="36.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2">
+<contactref element="U1" pad="D2"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="3.81" y1="30.48" x2="17.78" y2="34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="TX">
+<contactref element="U1" pad="TX"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="3.81" y1="23.48" x2="17.78" y2="31.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RX">
+<contactref element="U1" pad="RX"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="3.81" y1="26.98" x2="17.78" y2="29.21" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED1">
+<contactref element="JP10" pad="1"/>
+</signal>
+<signal name="LED2">
+<contactref element="JP10" pad="2"/>
+</signal>
+<signal name="LED3">
+<contactref element="JP10" pad="3"/>
 </signal>
 </signals>
 </board>
