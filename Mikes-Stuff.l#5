@@ -28,8 +28,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -2835,6 +2835,24 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 <text x="-5.08" y="16.51" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="TSSOT6">
+<smd name="6" x="-0.65" y="0.95" dx="0.4" dy="0.6" layer="1"/>
+<smd name="5" x="0" y="0.95" dx="0.4" dy="0.6" layer="1"/>
+<smd name="4" x="0.65" y="0.95" dx="0.4" dy="0.6" layer="1"/>
+<smd name="1" x="-0.65" y="-0.95" dx="0.4" dy="0.6" layer="1"/>
+<smd name="2" x="0" y="-0.95" dx="0.4" dy="0.6" layer="1"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.4" dy="0.6" layer="1"/>
+<wire x1="-1.1" y1="1.2" x2="1.1" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-1.2" x2="-1.1" y2="-1.2" width="0.127" layer="51"/>
+<text x="-1" y="2" size="1.27" layer="51">&gt;NAME</text>
+<text x="-1" y="-3" size="1.27" layer="51">&gt;VALUE</text>
+<wire x1="-1.1" y1="0.4" x2="1.1" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="0.4" x2="1.1" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="-0.4" x2="-1.1" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-1.2" x2="-1.1" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="0.4" x2="-1.1" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="1.2" x2="1.1" y2="-1.2" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -3166,18 +3184,32 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 <text x="-6.35" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="AD5246">
-<wire x1="-5.08" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="5.08" length="middle"/>
-<pin name="P$2" x="-10.16" y="0" length="middle"/>
-<pin name="P$3" x="-10.16" y="-5.08" length="middle"/>
-<pin name="P$4" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$5" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="P$6" x="15.24" y="5.08" length="middle" rot="R180"/>
-<text x="-3.81" y="8.636" size="1.27" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-10.16" size="1.27" layer="95">&gt;VALUE</text>
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="2.54" length="middle"/>
+<pin name="SCL" x="-12.7" y="0" length="middle"/>
+<pin name="SDA" x="-12.7" y="-2.54" length="middle"/>
+<pin name="W" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="B" x="10.16" y="5.08" length="middle" rot="R180"/>
+<text x="-6.35" y="8.636" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="4.572" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="4.572" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3887,10 +3919,20 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 </devices>
 </deviceset>
 <deviceset name="AD5246">
+<description>5Kohm Digital Potentiometer</description>
 <gates>
+<gate name="G$1" symbol="AD5246" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="TSSOT6" package="TSSOT6">
+<connects>
+<connect gate="G$1" pin="B" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="W" pad="5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
