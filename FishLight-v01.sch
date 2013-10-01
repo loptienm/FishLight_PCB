@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="5" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="5" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -889,6 +889,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="3.81" y1="8.89" x2="1.27" y2="8.89" width="0.127" layer="21"/>
 <wire x1="1.27" y1="8.89" x2="1.27" y2="21.59" width="0.127" layer="21"/>
 </package>
+<package name="TO-263">
+<smd name="5" x="3.4" y="2.1" dx="1" dy="4.2" layer="1"/>
+<smd name="2" x="-1.7" y="2.1" dx="1" dy="4.2" layer="1"/>
+<smd name="6" x="0" y="11.7" dx="10.8" dy="8.6" layer="1"/>
+<smd name="4" x="1.7" y="2.1" dx="1" dy="4.2" layer="1"/>
+<smd name="3" x="0" y="2.1" dx="1" dy="4.2" layer="1"/>
+<smd name="1" x="-3.35" y="2.1" dx="1" dy="4.2" layer="1"/>
+<text x="-5.08" y="16.51" size="1.27" layer="21">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_SHIELD">
@@ -939,6 +949,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="5V" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CAT4101">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="RSET" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="LED" x="5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="PWM" x="-5.08" y="-10.16" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1207,6 +1228,25 @@ We've spent an enormous amount of time creating and checking these footprints an
 <connect gate="RTC" pin="SCL" pad="2"/>
 <connect gate="RTC" pin="SDA" pad="1"/>
 <connect gate="RTC" pin="SQW" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAT4101">
+<gates>
+<gate name="G$1" symbol="CAT4101" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CAT4101" package="TO-263">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 6"/>
+<connect gate="G$1" pin="LED" pad="5"/>
+<connect gate="G$1" pin="PWM" pad="1"/>
+<connect gate="G$1" pin="RSET" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1769,6 +1809,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP10" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="U$1" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
+<part name="U$2" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
+<part name="U$3" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
+<part name="U$4" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
+<part name="U$5" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
+<part name="U$6" library="Mikes-Stuff" deviceset="CAT4101" device="CAT4101"/>
 </parts>
 <sheets>
 <sheet>
@@ -1799,6 +1845,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP10" gate="G$1" x="213.36" y="101.6" rot="R180"/>
 <instance part="JP11" gate="G$1" x="213.36" y="132.08" rot="R180"/>
 <instance part="JP12" gate="G$1" x="223.52" y="101.6"/>
+<instance part="U$1" gate="G$1" x="73.66" y="175.26"/>
+<instance part="U$2" gate="G$1" x="91.44" y="175.26"/>
+<instance part="U$3" gate="G$1" x="109.22" y="175.26"/>
+<instance part="U$4" gate="G$1" x="127" y="175.26"/>
+<instance part="U$5" gate="G$1" x="144.78" y="175.26"/>
+<instance part="U$6" gate="G$1" x="162.56" y="175.26"/>
 </instances>
 <busses>
 </busses>
