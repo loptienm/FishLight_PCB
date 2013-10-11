@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2807,26 +2807,26 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 <rectangle x1="13.716" y1="9.046" x2="14.224" y2="9.554" layer="51" rot="R90"/>
 </package>
 <package name="RTCBREAKOUT">
-<pad name="1" x="2.54" y="20.32" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="2.54" y="17.78" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="2.54" y="15.24" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="2.54" y="12.7" drill="1.016" diameter="1.8796"/>
-<pad name="5" x="2.54" y="10.16" drill="1.016" diameter="1.8796"/>
-<text x="1.1938" y="23.4188" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="2.286" y1="9.906" x2="2.794" y2="10.414" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="12.446" x2="2.794" y2="12.954" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="14.986" x2="2.794" y2="15.494" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="17.526" x2="2.794" y2="18.034" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="20.066" x2="2.794" y2="20.574" layer="51" rot="R270"/>
-<wire x1="0" y1="22.86" x2="20.32" y2="22.86" width="0.127" layer="21"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="2.54" width="0.127" layer="21"/>
-<wire x1="20.32" y1="2.54" x2="0" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="2.54" x2="0" y2="22.86" width="0.127" layer="21"/>
-<wire x1="1.27" y1="21.59" x2="3.81" y2="21.59" width="0.127" layer="21"/>
-<wire x1="3.81" y1="21.59" x2="3.81" y2="8.89" width="0.127" layer="21"/>
-<wire x1="3.81" y1="8.89" x2="1.27" y2="8.89" width="0.127" layer="21"/>
-<wire x1="1.27" y1="8.89" x2="1.27" y2="21.59" width="0.127" layer="21"/>
+<pad name="1" x="-7.62" y="7.62" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="-7.62" y="5.08" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="-7.62" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="-7.62" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="-7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-8.9662" y="10.7188" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-7.874" y1="-2.794" x2="-7.366" y2="-2.286" layer="51" rot="R270"/>
+<rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51" rot="R270"/>
+<rectangle x1="-7.874" y1="2.286" x2="-7.366" y2="2.794" layer="51" rot="R270"/>
+<rectangle x1="-7.874" y1="4.826" x2="-7.366" y2="5.334" layer="51" rot="R270"/>
+<rectangle x1="-7.874" y1="7.366" x2="-7.366" y2="7.874" layer="51" rot="R270"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="21"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="8.89" x2="-6.35" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="8.89" x2="-6.35" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-3.81" x2="-8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="8.89" width="0.127" layer="21"/>
 </package>
 <package name="TO-263">
 <smd name="5" x="3.4" y="2.1" dx="1" dy="4.2" layer="1"/>
@@ -3042,7 +3042,7 @@ package type SS</description>
 <smd name="3" x="0" y="-9.33" dx="1" dy="4.2" layer="1"/>
 <smd name="1" x="-3.35" y="-9.33" dx="1" dy="4.2" layer="1"/>
 <text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="-13.97" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="D2PAK-3">
 <smd name="3" x="3.4" y="-9.33" dx="1" dy="4.2" layer="1"/>
