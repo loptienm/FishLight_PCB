@@ -897,7 +897,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="3" x="0" y="2.1" dx="1" dy="4.2" layer="1"/>
 <smd name="1" x="-3.35" y="2.1" dx="1" dy="4.2" layer="1"/>
 <text x="-5.08" y="16.51" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TSSOT6">
 <smd name="6" x="-0.65" y="0.95" dx="0.4" dy="0.6" layer="1"/>
@@ -908,8 +908,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="3" x="0.65" y="-0.95" dx="0.4" dy="0.6" layer="1"/>
 <wire x1="-1.1" y1="1.2" x2="1.1" y2="1.2" width="0.127" layer="51"/>
 <wire x1="1.1" y1="-1.2" x2="-1.1" y2="-1.2" width="0.127" layer="51"/>
-<text x="-1" y="2" size="1.27" layer="51">&gt;NAME</text>
-<text x="-1" y="-3" size="1.27" layer="51">&gt;VALUE</text>
+<text x="-1" y="2" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.1" y1="0.4" x2="1.1" y2="0.4" width="0.2032" layer="21"/>
 <wire x1="1.1" y1="0.4" x2="1.1" y2="-0.4" width="0.2032" layer="21"/>
 <wire x1="1.1" y1="-0.4" x2="-1.1" y2="-0.4" width="0.2032" layer="21"/>
@@ -982,7 +982,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="2" x="0" y="-9.33" dx="1" dy="4.2" layer="1"/>
 <smd name="1" x="-3.35" y="-9.33" dx="1" dy="4.2" layer="1"/>
 <text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="-13.97" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X03">
 <wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
@@ -1298,7 +1298,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="2" x="0" y="0.27" dx="10.8" dy="8.6" layer="1"/>
 <smd name="1" x="-3.35" y="-9.33" dx="1" dy="4.2" layer="1"/>
 <text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="-13.97" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1815,11 +1815,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </devices>
 </deviceset>
 <deviceset name="UA7812">
+<description>12V fixed output regulator</description>
 <gates>
 <gate name="G$1" symbol="UA7812" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="D2PAK-3">
+<device name="D2PAK-3" package="D2PAK-3">
 <connects>
 <connect gate="G$1" pin="COM" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
@@ -2887,7 +2888,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="U8" library="Mikes-Stuff" deviceset="CD74HC4067" device="SSOP24"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="12V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="12V"/>
-<part name="U14" library="Mikes-Stuff" deviceset="UA7812" device=""/>
+<part name="U14" library="Mikes-Stuff" deviceset="UA7812" device="D2PAK-3"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.33uF"/>
 <part name="JP1" library="Mikes-Stuff" deviceset="M03" device="POLAR"/>

@@ -355,42 +355,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT23-8">
-<smd name="1" x="-0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="2" x="-0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="3" x="0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="4" x="0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="5" x="0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="6" x="0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="7" x="-0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="8" x="-0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<wire x1="-1.45" y1="0.55" x2="1.45" y2="0.55" width="0.127" layer="21"/>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-0.55" x2="1.4" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.6" x2="-1.4" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.6" x2="-1.45" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-0.55" x2="-1.45" y2="0.5" width="0.127" layer="21"/>
-<circle x="-1.15" y="-0.2" radius="0.1" width="0.127" layer="21"/>
-<text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
-<package name="MSOP-10">
-<wire x1="-1.47" y1="1.32" x2="-1.47" y2="-1.32" width="0.127" layer="21"/>
-<wire x1="-1.47" y1="-1.32" x2="1.47" y2="-1.32" width="0.127" layer="21"/>
-<wire x1="1.47" y1="-1.32" x2="1.47" y2="1.32" width="0.127" layer="21"/>
-<wire x1="1.47" y1="1.32" x2="-1.47" y2="1.32" width="0.127" layer="21"/>
-<circle x="-0.95" y="-0.85" radius="0.14141875" width="0.127" layer="21"/>
-<smd name="1" x="-1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="2" x="-0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="3" x="0" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="5" x="1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="7" x="0.5" y="2" dx="0.35" dy="1" layer="1"/>
-<smd name="6" x="1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="8" x="0" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="9" x="-0.5" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="10" x="-1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<text x="-2" y="-3" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors">
@@ -863,8 +827,6 @@ design rules under a new name.</description>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="-90.17" y="-271.78"/>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="-90.17" y="-274.32"/>
 <element name="JP18" library="SparkFun-Connectors" package="1X05" value="" x="-88.9" y="-280.67"/>
-<element name="U$2" library="Mikes-Stuff" package="SOT23-8" value="AD5245SOT23-8" x="97.79" y="12.7"/>
-<element name="U$3" library="Mikes-Stuff" package="MSOP-10" value="AD5259MSOP-10" x="91.44" y="13.97"/>
 <element name="R6" library="SparkFun-Resistors" package="R2010" value="" x="-87.63" y="-284.48"/>
 <element name="R7" library="SparkFun-Resistors" package="R2010" value="" x="-87.63" y="-288.29"/>
 <element name="R8" library="SparkFun-Resistors" package="R2010" value="" x="-87.63" y="-292.1"/>
@@ -1348,60 +1310,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="D0">
 <contactref element="U$1" pad="13"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$2" pad="8"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$2" pad="7"/>
-</signal>
-<signal name="N$5">
-<contactref element="U$2" pad="6"/>
-</signal>
-<signal name="N$8">
-<contactref element="U$2" pad="5"/>
-</signal>
-<signal name="N$10">
-<contactref element="U$2" pad="1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U$2" pad="2"/>
-</signal>
-<signal name="N$15">
-<contactref element="U$2" pad="3"/>
-</signal>
-<signal name="N$16">
-<contactref element="U$2" pad="4"/>
-</signal>
-<signal name="N$17">
-<contactref element="U$3" pad="1"/>
-</signal>
-<signal name="N$18">
-<contactref element="U$3" pad="2"/>
-</signal>
-<signal name="N$19">
-<contactref element="U$3" pad="3"/>
-</signal>
-<signal name="N$20">
-<contactref element="U$3" pad="4"/>
-</signal>
-<signal name="N$21">
-<contactref element="U$3" pad="5"/>
-</signal>
-<signal name="N$22">
-<contactref element="U$3" pad="6"/>
-</signal>
-<signal name="N$23">
-<contactref element="U$3" pad="7"/>
-</signal>
-<signal name="N$26">
-<contactref element="U$3" pad="8"/>
-</signal>
-<signal name="N$27">
-<contactref element="U$3" pad="9"/>
-</signal>
-<signal name="N$29">
-<contactref element="U$3" pad="10"/>
 </signal>
 </signals>
 </board>

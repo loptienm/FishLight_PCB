@@ -758,42 +758,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT23-8">
-<smd name="1" x="-0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="2" x="-0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="3" x="0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="4" x="0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="5" x="0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="6" x="0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="7" x="-0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="8" x="-0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
-<wire x1="-1.45" y1="0.55" x2="1.45" y2="0.55" width="0.127" layer="21"/>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-0.55" x2="1.4" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.6" x2="-1.4" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.6" x2="-1.45" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-0.55" x2="-1.45" y2="0.5" width="0.127" layer="21"/>
-<circle x="-1.15" y="-0.2" radius="0.1" width="0.127" layer="21"/>
-<text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
-<package name="MSOP-10">
-<wire x1="-1.47" y1="1.32" x2="-1.47" y2="-1.32" width="0.127" layer="21"/>
-<wire x1="-1.47" y1="-1.32" x2="1.47" y2="-1.32" width="0.127" layer="21"/>
-<wire x1="1.47" y1="-1.32" x2="1.47" y2="1.32" width="0.127" layer="21"/>
-<wire x1="1.47" y1="1.32" x2="-1.47" y2="1.32" width="0.127" layer="21"/>
-<circle x="-0.95" y="-0.85" radius="0.14141875" width="0.127" layer="21"/>
-<smd name="1" x="-1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="2" x="-0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="3" x="0" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="5" x="1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="7" x="0.5" y="2" dx="0.35" dy="1" layer="1"/>
-<smd name="6" x="1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="8" x="0" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="9" x="-0.5" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<smd name="10" x="-1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
-<text x="-2" y="-3" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RTCBREAKOUT">
@@ -917,62 +881,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.27" layer="94">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.27" layer="94">&gt;VALUE</text>
-</symbol>
-<symbol name="AD5245">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="W" x="-12.7" y="5.08" length="middle"/>
-<pin name="VDD" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND" x="-12.7" y="0" length="middle"/>
-<pin name="SCL" x="-12.7" y="-2.54" length="middle"/>
-<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="AD0" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="B" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="A" x="12.7" y="5.08" length="middle" rot="R180"/>
-<wire x1="2.54" y1="6.604" x2="2.54" y2="5.842" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.842" x2="1.778" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.778" y1="5.08" x2="2.54" y2="4.318" width="0.254" layer="94"/>
-<wire x1="2.54" y1="4.318" x2="1.778" y2="3.556" width="0.254" layer="94"/>
-<wire x1="1.778" y1="3.556" x2="2.54" y2="2.794" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.794" x2="2.54" y2="2.032" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="4.318" x2="1.524" y2="4.318" width="0.254" layer="94"/>
-<wire x1="1.524" y1="4.318" x2="1.016" y2="4.826" width="0.254" layer="94"/>
-<wire x1="1.524" y1="4.318" x2="1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="4.318" x2="-1.524" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<text x="-6.35" y="8.89" size="1.27" layer="94">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.27" layer="94">&gt;VALUE</text>
-</symbol>
-<symbol name="AD5259">
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="W" x="-12.7" y="5.08" length="middle"/>
-<pin name="AD0" x="-12.7" y="2.54" length="middle"/>
-<pin name="AD1" x="-12.7" y="0" length="middle"/>
-<pin name="SDA" x="-12.7" y="-2.54" length="middle"/>
-<pin name="SCL" x="-12.7" y="-5.08" length="middle"/>
-<pin name="VLOG" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="VDD" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="B" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="A" x="12.7" y="5.08" length="middle" rot="R180"/>
-<wire x1="2.54" y1="6.604" x2="2.54" y2="5.842" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.842" x2="1.778" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.778" y1="5.08" x2="2.54" y2="4.318" width="0.254" layer="94"/>
-<wire x1="2.54" y1="4.318" x2="1.778" y2="3.556" width="0.254" layer="94"/>
-<wire x1="1.778" y1="3.556" x2="2.54" y2="2.794" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.794" x2="2.54" y2="2.032" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="4.318" x2="1.524" y2="4.318" width="0.254" layer="94"/>
-<wire x1="1.524" y1="4.318" x2="1.016" y2="4.826" width="0.254" layer="94"/>
-<wire x1="1.524" y1="4.318" x2="1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="4.318" x2="-1.524" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<text x="-6.35" y="8.89" size="1.27" layer="94">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1288,52 +1196,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="COM" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AD5245">
-<gates>
-<gate name="G$1" symbol="AD5245" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23-8" package="SOT23-8">
-<connects>
-<connect gate="G$1" pin="A" pad="8"/>
-<connect gate="G$1" pin="AD0" pad="6"/>
-<connect gate="G$1" pin="B" pad="7"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="4"/>
-<connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="W" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AD5259">
-<gates>
-<gate name="G$1" symbol="AD5259" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MSOP-10" package="MSOP-10">
-<connects>
-<connect gate="G$1" pin="A" pad="10"/>
-<connect gate="G$1" pin="AD0" pad="2"/>
-<connect gate="G$1" pin="AD1" pad="3"/>
-<connect gate="G$1" pin="B" pad="9"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VLOG" pad="6"/>
-<connect gate="G$1" pin="W" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2892,8 +2754,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="JP18" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="U$2" library="Mikes-Stuff" deviceset="AD5245" device="SOT23-8"/>
-<part name="U$3" library="Mikes-Stuff" deviceset="AD5259" device="MSOP-10"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="2010"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="2010"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="2010"/>
@@ -2976,8 +2836,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R4" gate="G$1" x="142.24" y="48.26" rot="R90"/>
 <instance part="R5" gate="G$1" x="142.24" y="30.48" rot="R90"/>
 <instance part="JP18" gate="G$1" x="17.78" y="104.14"/>
-<instance part="U$2" gate="G$1" x="63.5" y="111.76"/>
-<instance part="U$3" gate="G$1" x="63.5" y="91.44"/>
 <instance part="R6" gate="G$1" x="73.66" y="165.1"/>
 <instance part="R7" gate="G$1" x="73.66" y="160.02"/>
 <instance part="R8" gate="G$1" x="73.66" y="154.94"/>
@@ -3996,114 +3854,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U$1" gate="G$1" pin="D0"/>
 <wire x1="45.72" y1="121.92" x2="50.8" y2="121.92" width="0.2032" layer="91"/>
 <label x="45.72" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="116.84" x2="81.28" y2="116.84" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="B"/>
-<wire x1="76.2" y1="114.3" x2="81.28" y2="114.3" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="AD0"/>
-<wire x1="76.2" y1="111.76" x2="81.28" y2="111.76" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="SDA"/>
-<wire x1="76.2" y1="109.22" x2="81.28" y2="109.22" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="W"/>
-<wire x1="50.8" y1="116.84" x2="45.72" y2="116.84" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
-<wire x1="50.8" y1="114.3" x2="45.72" y2="114.3" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="50.8" y1="111.76" x2="45.72" y2="111.76" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="SCL"/>
-<wire x1="50.8" y1="109.22" x2="45.72" y2="109.22" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="W"/>
-<wire x1="50.8" y1="96.52" x2="45.72" y2="96.52" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="AD0"/>
-<wire x1="50.8" y1="93.98" x2="45.72" y2="93.98" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="AD1"/>
-<wire x1="50.8" y1="91.44" x2="45.72" y2="91.44" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="SDA"/>
-<wire x1="50.8" y1="88.9" x2="45.72" y2="88.9" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="SCL"/>
-<wire x1="50.8" y1="86.36" x2="45.72" y2="86.36" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="VLOG"/>
-<wire x1="76.2" y1="86.36" x2="81.28" y2="86.36" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="76.2" y1="88.9" x2="81.28" y2="88.9" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
-<wire x1="76.2" y1="91.44" x2="81.28" y2="91.44" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="B"/>
-<wire x1="76.2" y1="93.98" x2="81.28" y2="93.98" width="0.2032" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="96.52" x2="81.28" y2="96.52" width="0.2032" layer="91"/>
 </segment>
 </net>
 </nets>
