@@ -7927,6 +7927,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="1.016" y1="2.54" x2="0.508" y2="2.032" width="0.254" layer="94"/>
 <wire x1="1.016" y1="2.54" x2="0.508" y2="3.048" width="0.254" layer="94"/>
 </symbol>
+<symbol name="INA219">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="V+" x="-12.7" y="2.54" length="middle"/>
+<pin name="V-" x="-12.7" y="0" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
+<pin name="VDD" x="-12.7" y="-5.08" length="middle"/>
+<pin name="SCL" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="A0" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="A1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-6.35" y="6.35" size="1.27" layer="94">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO-MEGA" prefix="U">
@@ -10577,6 +10593,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="AD5259">
+<description>5K digital potentiometer with 2 I2C pins</description>
 <gates>
 <gate name="G$1" symbol="AD5259" x="0" y="0"/>
 </gates>
@@ -10601,7 +10618,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="AD5245">
-<description>5K digital potentiometer with 2 I2C address pins</description>
+<description>5K digital potentiometer with 1 I2C address pin</description>
 <gates>
 <gate name="G$1" symbol="AD5245" x="0" y="0"/>
 </gates>
@@ -10641,6 +10658,28 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="VDD" pad="5"/>
 <connect gate="G$1" pin="W1" pad="10"/>
 <connect gate="G$1" pin="W2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA219">
+<gates>
+<gate name="G$1" symbol="INA219" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-8">
+<connects>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="V+" pad="1"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

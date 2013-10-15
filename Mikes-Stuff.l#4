@@ -8635,7 +8635,7 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 </devices>
 </deviceset>
 <deviceset name="AD5246">
-<description>5Kohm Digital Potentiometer</description>
+<description>5K digital potentiometer no I2C selectable address pins</description>
 <gates>
 <gate name="G$1" symbol="AD5246" x="-2.54" y="0"/>
 </gates>
@@ -10577,6 +10577,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="AD5259">
+<description>5K digital potentiometer with 2 I2C pins</description>
 <gates>
 <gate name="G$1" symbol="AD5259" x="0" y="0"/>
 </gates>
@@ -10601,6 +10602,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="AD5245">
+<description>5K digital potentiometer with 1 I2C address pin</description>
 <gates>
 <gate name="G$1" symbol="AD5245" x="0" y="0"/>
 </gates>
@@ -10623,6 +10625,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="AD5248">
+<description>10K 2-circuit digital potentiometer with 2 I2C address pins</description>
 <gates>
 <gate name="G$1" symbol="AD5248" x="0" y="0"/>
 </gates>
