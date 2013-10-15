@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2829,14 +2829,14 @@ See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more 
 <wire x1="-8.89" y1="-3.81" x2="-8.89" y2="8.89" width="0.127" layer="21"/>
 </package>
 <package name="TO-263">
-<smd name="5" x="3.4" y="2.1" dx="1" dy="4.2" layer="1"/>
-<smd name="2" x="-1.7" y="2.1" dx="1" dy="4.2" layer="1"/>
-<smd name="6" x="0" y="11.7" dx="10.8" dy="8.6" layer="1"/>
-<smd name="4" x="1.7" y="2.1" dx="1" dy="4.2" layer="1"/>
-<smd name="3" x="0" y="2.1" dx="1" dy="4.2" layer="1"/>
-<smd name="1" x="-3.35" y="2.1" dx="1" dy="4.2" layer="1"/>
-<text x="-5.08" y="16.51" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="5" x="3.4" y="-9.33" dx="1" dy="4.2" layer="1"/>
+<smd name="2" x="-1.7" y="-9.33" dx="1" dy="4.2" layer="1"/>
+<smd name="6" x="0" y="0.27" dx="10.8" dy="8.6" layer="1"/>
+<smd name="4" x="1.7" y="-9.33" dx="1" dy="4.2" layer="1"/>
+<smd name="3" x="0" y="-9.33" dx="1" dy="4.2" layer="1"/>
+<smd name="1" x="-3.35" y="-9.33" dx="1" dy="4.2" layer="1"/>
+<text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
+<text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TSSOT6">
 <smd name="6" x="-0.65" y="0.95" dx="0.4" dy="0.6" layer="1"/>
@@ -7099,6 +7099,42 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <hole x="25.4" y="0" drill="1.4732"/>
 <hole x="27.94" y="0" drill="1.4732"/>
 </package>
+<package name="MSOP-10">
+<wire x1="-1.47" y1="1.32" x2="-1.47" y2="-1.32" width="0.127" layer="21"/>
+<wire x1="-1.47" y1="-1.32" x2="1.47" y2="-1.32" width="0.127" layer="21"/>
+<wire x1="1.47" y1="-1.32" x2="1.47" y2="1.32" width="0.127" layer="21"/>
+<wire x1="1.47" y1="1.32" x2="-1.47" y2="1.32" width="0.127" layer="21"/>
+<circle x="-0.95" y="-0.85" radius="0.14141875" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="-0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="3" x="0" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="0.5" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="5" x="1" y="-2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="7" x="0.5" y="2" dx="0.35" dy="1" layer="1"/>
+<smd name="6" x="1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="8" x="0" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="9" x="-0.5" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="10" x="-1" y="2" dx="0.35" dy="1" layer="1" rot="R180"/>
+<text x="-2" y="-3" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="SOT23-8">
+<smd name="1" x="-0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="2" x="-0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="3" x="0.3" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="4" x="0.95" y="-1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="5" x="0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="6" x="0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="7" x="-0.3" y="1.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="8" x="-0.95" y="1.2" dx="0.4" dy="0.8" layer="1"/>
+<wire x1="-1.45" y1="0.55" x2="1.45" y2="0.55" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.55" x2="1.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.6" x2="-1.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.6" x2="-1.45" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.55" x2="-1.45" y2="0.5" width="0.127" layer="21"/>
+<circle x="-1.15" y="-0.2" radius="0.1" width="0.127" layer="21"/>
+<text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -7785,6 +7821,62 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="10" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="11" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="12" x="10.16" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="AD5259">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="W" x="-12.7" y="5.08" length="middle"/>
+<pin name="AD0" x="-12.7" y="2.54" length="middle"/>
+<pin name="AD1" x="-12.7" y="0" length="middle"/>
+<pin name="SDA" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SCL" x="-12.7" y="-5.08" length="middle"/>
+<pin name="VLOG" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="B" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="A" x="12.7" y="5.08" length="middle" rot="R180"/>
+<wire x1="2.54" y1="6.604" x2="2.54" y2="5.842" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.842" x2="1.778" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.778" y1="5.08" x2="2.54" y2="4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.318" x2="1.778" y2="3.556" width="0.254" layer="94"/>
+<wire x1="1.778" y1="3.556" x2="2.54" y2="2.794" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.794" x2="2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.318" x2="1.524" y2="4.318" width="0.254" layer="94"/>
+<wire x1="1.524" y1="4.318" x2="1.016" y2="4.826" width="0.254" layer="94"/>
+<wire x1="1.524" y1="4.318" x2="1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.318" x2="-1.524" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.35" y="8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="AD5245">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="W" x="-12.7" y="5.08" length="middle"/>
+<pin name="VDD" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="SCL" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="AD0" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="B" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="A" x="12.7" y="5.08" length="middle" rot="R180"/>
+<wire x1="2.54" y1="6.604" x2="2.54" y2="5.842" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.842" x2="1.778" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.778" y1="5.08" x2="2.54" y2="4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.318" x2="1.778" y2="3.556" width="0.254" layer="94"/>
+<wire x1="1.778" y1="3.556" x2="2.54" y2="2.794" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.794" x2="2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.318" x2="1.524" y2="4.318" width="0.254" layer="94"/>
+<wire x1="1.524" y1="4.318" x2="1.016" y2="4.826" width="0.254" layer="94"/>
+<wire x1="1.524" y1="4.318" x2="1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.318" x2="-1.524" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.35" y="8.89" size="1.27" layer="94">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10428,6 +10520,52 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD5259">
+<gates>
+<gate name="G$1" symbol="AD5259" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MSOP-10" package="MSOP-10">
+<connects>
+<connect gate="G$1" pin="A" pad="10"/>
+<connect gate="G$1" pin="AD0" pad="2"/>
+<connect gate="G$1" pin="AD1" pad="3"/>
+<connect gate="G$1" pin="B" pad="9"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VLOG" pad="6"/>
+<connect gate="G$1" pin="W" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD5245">
+<gates>
+<gate name="G$1" symbol="AD5245" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT23-8" package="SOT23-8">
+<connects>
+<connect gate="G$1" pin="A" pad="8"/>
+<connect gate="G$1" pin="AD0" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="W" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
