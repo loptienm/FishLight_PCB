@@ -290,6 +290,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <circle x="-1.15" y="-0.2" radius="0.1" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOT-23-3">
+<smd name="3" x="0" y="1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="2" x="-0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="1" x="0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="21"/>
+<text x="-2" y="-1" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors">
@@ -864,6 +874,10 @@ design rules under a new name.</description>
 <element name="JP13" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="16" y="37"/>
 <element name="JP14" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="17" y="50"/>
 <element name="JP15" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="22" y="50"/>
+<element name="U$1" library="Mikes-Stuff" package="SOT-23-3" value="RK7002BSOT23-3" x="-23" y="-1"/>
+<element name="U$2" library="Mikes-Stuff" package="SOT-23-3" value="RK7002BSOT23-3" x="-29" y="-1"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="10K" x="-31" y="-5"/>
+<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="10K" x="-31" y="-8"/>
 </elements>
 <signals>
 <signal name="SDA">
@@ -965,9 +979,11 @@ design rules under a new name.</description>
 <contactref element="U15" pad="7"/>
 <contactref element="JP7" pad="1"/>
 <contactref element="JP7" pad="2"/>
-<contactref element="JP5" pad="1"/>
-<contactref element="JP4" pad="1"/>
 <contactref element="JP14" pad="1"/>
+<contactref element="U$2" pad="1"/>
+<contactref element="U$1" pad="1"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R5" pad="1"/>
 <wire x1="89.32" y1="68.58" x2="89.32" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="89.32" y1="67.31" x2="89.32" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="89.32" y1="66.04" x2="89.32" y2="67.31" width="0" layer="19" extent="1-1"/>
@@ -1021,11 +1037,13 @@ design rules under a new name.</description>
 <wire x1="12" y1="32.56" x2="12" y2="28.18" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="30.04" x2="12" y2="28.18" width="0" layer="19" extent="1-1"/>
 <wire x1="17" y1="50" x2="12" y2="32.56" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="62.23" x2="17" y2="50" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="69.58" x2="20.32" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="67.58" x2="20.32" y2="69.58" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="60.23" x2="17" y2="50" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="67.58" x2="7.62" y2="60.23" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="74.93" x2="7.62" y2="67.58" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="60.23" x2="7.62" y2="67.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.05" y1="-2.05" x2="12.6" y2="12.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.05" y1="-2.05" x2="-22.05" y2="-2.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.85" y1="-5" x2="-28.05" y2="-2.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.85" y1="-8" x2="-31.85" y2="-5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V" airwireshidden="yes">
 <contactref element="U2" pad="5"/>
@@ -1365,6 +1383,26 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$13">
 <via x="10.3" y="15.4" extent="1-16" drill="0.508" shape="square"/>
+</signal>
+<signal name="N$1">
+<contactref element="JP5" pad="1"/>
+<contactref element="U$2" pad="3"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-29" y1="0.05" x2="20.32" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.15" y1="-8" x2="-29" y2="0.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="JP4" pad="1"/>
+<contactref element="U$1" pad="3"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-23" y1="0.05" x2="20.32" y2="69.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.15" y1="-5" x2="-23" y2="0.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAN2">
+<contactref element="U$2" pad="2"/>
+</signal>
+<signal name="FAN1">
+<contactref element="U$1" pad="2"/>
 </signal>
 </signals>
 </board>

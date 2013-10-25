@@ -4166,6 +4166,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="100.584" y="52.07" size="1.778" layer="91">ADR: 100</text>
 <text x="12.7" y="60.96" size="1.778" layer="91" rot="R90">Fan Connectors</text>
 <text x="127" y="10.16" size="1.778" layer="91">Screws</text>
+<text x="172.72" y="180.34" size="1.778" layer="91">RD</text>
+<text x="170.18" y="165.1" size="1.778" layer="91">GRN</text>
 </plain>
 <instances>
 <instance part="GND" gate="1" x="91.44" y="5.08"/>
