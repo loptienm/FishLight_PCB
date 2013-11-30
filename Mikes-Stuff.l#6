@@ -7136,9 +7136,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
 <package name="SOT-23-3">
-<smd name="3" x="0" y="1.1" dx="0.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="2" x="-0.95" y="-1.1" dx="0.5" dy="0.7" layer="1" rot="R180"/>
-<smd name="1" x="1" y="-1.1" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="3" x="0" y="1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="2" x="-0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="1" x="0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="21"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="21"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="21"/>
@@ -10728,7 +10728,12 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <gate name="G$1" symbol="RK7002B" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-8">
+<device name="SOT23-3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
