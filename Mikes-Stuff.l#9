@@ -7135,6 +7135,16 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="-1.15" y="-0.2" radius="0.1" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOT-23-3">
+<smd name="3" x="0" y="1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="2" x="-0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<smd name="1" x="0.95" y="-1.05" dx="0.5" dy="0.7" layer="1" rot="R180"/>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="21"/>
+<text x="-2" y="-1" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -7968,6 +7978,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="0.254" y1="-0.254" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-0.254" x2="0.762" y2="0.508" width="0.254" layer="94"/>
 <wire x1="0.254" y1="0.508" x2="1.27" y2="0.508" width="0.254" layer="94"/>
+<text x="-3.81" y="6.35" size="1.27" layer="94">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10715,9 +10727,15 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </deviceset>
 <deviceset name="RK7002B">
 <gates>
+<gate name="G$1" symbol="RK7002B" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="SOT23-3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

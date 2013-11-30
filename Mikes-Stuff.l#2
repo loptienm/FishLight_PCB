@@ -7999,6 +7999,20 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="2.54" y="-7.62" size="1.27" layer="94">&gt;VALUE</text>
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="NC7SZ373">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="LE" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="D" x="-12.7" y="-2.54" length="middle"/>
+<pin name="Q" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="/OE" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-6.35" y="6.35" size="1.778" layer="94">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO-MEGA" prefix="U">
@@ -10761,6 +10775,25 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </devices>
 </deviceset>
 <deviceset name="MIC29300">
+<description>12V 3A Low Drop Out Voltage Regulator</description>
+<gates>
+<gate name="G$1" symbol="MIC29300" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D2PAK-3" package="D2PAK-3">
+<connects>
+<connect gate="G$1" pin="COM" pad="2 6"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NC7SZ373">
+<description>5V D-Latch</description>
 <gates>
 </gates>
 <devices>
