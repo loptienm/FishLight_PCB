@@ -4895,8 +4895,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C22" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="U$1" library="Mikes-Stuff" deviceset="DS3231M" device="SOIC-8"/>
+<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -5027,8 +5027,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="C22" gate="G$1" x="63.5" y="86.36"/>
 <instance part="C23" gate="G$1" x="63.5" y="66.04"/>
 <instance part="C24" gate="G$1" x="63.5" y="45.72"/>
-<instance part="BAT1" gate="G$1" x="259.08" y="48.26" rot="R270"/>
 <instance part="U$1" gate="G$1" x="264.16" y="63.5"/>
+<instance part="BAT1" gate="G$1" x="259.08" y="43.18" rot="R270"/>
 </instances>
 <busses>
 </busses>
