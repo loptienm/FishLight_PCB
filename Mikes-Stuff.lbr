@@ -7159,6 +7159,26 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="-0.75" y="-0.35" radius="0.089440625" width="0.127" layer="21"/>
 <text x="2" y="-1" size="0.8128" layer="21" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOIC-8">
+<smd name="P$1" x="-1.905" y="-2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$2" x="-0.635" y="-2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$3" x="0.635" y="-2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$4" x="1.905" y="-2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$5" x="1.905" y="2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$6" x="0.635" y="2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$7" x="-0.635" y="2.465" dx="0.53" dy="1.98" layer="1"/>
+<smd name="P$8" x="-1.905" y="2.465" dx="0.53" dy="1.98" layer="1"/>
+<wire x1="2.45" y1="1.95" x2="2.45" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="1.95" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
+<circle x="-1.92" y="-0.88" radius="0.2906875" width="0.127" layer="21"/>
+<wire x1="-1.48" y1="1.95" x2="-1.05" y2="1.95" width="0.127" layer="21"/>
+<wire x1="1.055" y1="1.95" x2="1.485" y2="1.95" width="0.127" layer="21"/>
+<wire x1="1.055" y1="-1.95" x2="1.485" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-0.215" y1="-1.95" x2="0.215" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-1.485" y1="-1.95" x2="-1.055" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-0.215" y1="1.95" x2="0.215" y2="1.95" width="0.127" layer="21"/>
+<text x="4" y="-2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -8026,6 +8046,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="/OE" x="12.7" y="2.54" length="middle" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.778" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="DS3231M">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="32K" x="-12.7" y="2.54" length="middle"/>
+<pin name="VCC" x="-12.7" y="0" length="middle"/>
+<pin name="SQW" x="-12.7" y="-2.54" length="middle"/>
+<pin name="/RST" x="-12.7" y="-5.08" length="middle"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="VBAT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-6.35" y="6.35" size="0.8128" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="0.8128" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10820,6 +10856,29 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="LE" pad="P$1"/>
 <connect gate="G$1" pin="Q" pad="P$4"/>
 <connect gate="G$1" pin="VCC" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DS3231M">
+<description>I2C Real Time Clock with internal crystal oscillator</description>
+<gates>
+<gate name="G$1" symbol="DS3231M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC-8" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="/RST" pad="P$4"/>
+<connect gate="G$1" pin="32K" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="SCL" pad="P$8"/>
+<connect gate="G$1" pin="SDA" pad="P$7"/>
+<connect gate="G$1" pin="SQW" pad="P$3"/>
+<connect gate="G$1" pin="VBAT" pad="P$6"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
