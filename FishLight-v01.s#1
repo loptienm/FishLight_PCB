@@ -1686,12 +1686,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="3.3671" y1="2.6416" x2="3.7227" y2="3.937" layer="51"/>
 </package>
 <package name="TSSOP-6">
-<smd name="P$1" x="-0.65" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$3" x="0.65" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$4" x="0.65" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$5" x="0" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$6" x="-0.65" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-0.65" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="0" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-0.65" y="0.95" dx="0.5" dy="0.4" layer="1" rot="R90"/>
 <wire x1="0.99" y1="0.58" x2="-1" y2="0.58" width="0.127" layer="21"/>
 <wire x1="-1" y1="0.58" x2="-1" y2="-0.58" width="0.127" layer="21"/>
 <wire x1="-1" y1="-0.58" x2="1" y2="-0.58" width="0.127" layer="21"/>
@@ -1907,16 +1907,16 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-11.43" y="-20.32" size="2.032" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="NC7SZ373">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="LE" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND" x="-12.7" y="0" length="middle"/>
-<pin name="D" x="-12.7" y="-2.54" length="middle"/>
-<pin name="Q" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="/OE" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="LE" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="0" length="short"/>
+<pin name="D" x="-10.16" y="-2.54" length="short"/>
+<pin name="Q" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="VCC" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="/OE" x="7.62" y="2.54" length="short" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.778" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
@@ -2399,14 +2399,14 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <gate name="G$1" symbol="NC7SZ373" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP-6">
+<device name="TSSOP-6" package="TSSOP-6">
 <connects>
-<connect gate="G$1" pin="/OE" pad="P$6"/>
-<connect gate="G$1" pin="D" pad="P$3"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="LE" pad="P$1"/>
-<connect gate="G$1" pin="Q" pad="P$4"/>
-<connect gate="G$1" pin="VCC" pad="P$5"/>
+<connect gate="G$1" pin="/OE" pad="6"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LE" pad="1"/>
+<connect gate="G$1" pin="Q" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5464,7 +5464,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="JP32" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="U$1" library="Mikes-Stuff" deviceset="CD74HC4067" device="SSOP24"/>
 <part name="U$2" library="Mikes-Stuff" deviceset="CD74HC4067" device="SSOP24"/>
-<part name="U$3" library="Mikes-Stuff" deviceset="NC7SZ373" device=""/>
+<part name="U$3" library="Mikes-Stuff" deviceset="NC7SZ373" device="TSSOP-6"/>
 <part name="U$4" library="Mikes-Stuff" deviceset="RK7002B" device="SOT23-3"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="0603"/>
@@ -6572,27 +6572,25 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="43.18" y="154.94" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="D6"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="71.12" x2="236.22" y2="71.12" width="0.2032" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="83.82" x2="246.38" y2="83.82" width="0.2032" layer="91"/>
+<wire x1="246.38" y1="83.82" x2="246.38" y2="71.12" width="0.2032" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="71.12" x2="246.38" y2="58.42" width="0.2032" layer="91"/>
+<wire x1="246.38" y1="58.42" x2="238.76" y2="58.42" width="0.2032" layer="91"/>
+<wire x1="243.84" y1="71.12" x2="246.38" y2="71.12" width="0.2032" layer="91"/>
+<label x="236.22" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
 <wire x1="43.18" y1="149.86" x2="48.26" y2="149.86" width="0.2032" layer="91"/>
 <label x="43.18" y="149.86" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="D5"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<label x="236.22" y="71.12" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="71.12" x2="243.84" y2="71.12" width="0.2032" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<label x="238.76" y="83.82" size="1.778" layer="95"/>
-<wire x1="246.38" y1="83.82" x2="238.76" y2="83.82" width="0.2032" layer="91"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="71.12" width="0.2032" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<label x="238.76" y="58.42" size="1.778" layer="95"/>
-<wire x1="246.38" y1="71.12" x2="246.38" y2="58.42" width="0.2032" layer="91"/>
-<wire x1="238.76" y1="58.42" x2="246.38" y2="58.42" width="0.2032" layer="91"/>
-<wire x1="243.84" y1="71.12" x2="246.38" y2="71.12" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="-104.14" x2="58.42" y2="-104.14" width="0.2032" layer="91"/>

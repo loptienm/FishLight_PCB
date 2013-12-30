@@ -7517,11 +7517,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="RSET" x="-12.7" y="0" length="middle"/>
-<pin name="LED" x="-12.7" y="-2.54" length="middle"/>
-<pin name="PWM" x="-12.7" y="2.54" length="middle"/>
+<pin name="VIN" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="RSET" x="-10.16" y="0" length="short"/>
+<pin name="LED" x="-10.16" y="-2.54" length="short"/>
+<pin name="PWM" x="-10.16" y="2.54" length="short"/>
 <text x="-6.35" y="5.588" size="1.27" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -7945,16 +7945,16 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<pin name="B1" x="-12.7" y="5.08" length="middle"/>
-<pin name="AD0" x="-12.7" y="2.54" length="middle"/>
-<pin name="W2" x="-12.7" y="0" length="middle"/>
-<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VDD" x="-12.7" y="-5.08" length="middle"/>
-<pin name="SCL" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="AD1" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="B2" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="W1" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="B1" x="-10.16" y="5.08" length="short"/>
+<pin name="AD0" x="-10.16" y="2.54" length="short"/>
+<pin name="W2" x="-10.16" y="0" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="VDD" x="-10.16" y="-5.08" length="short"/>
+<pin name="SCL" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="SDA" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="AD1" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="B2" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="W1" x="10.16" y="5.08" length="short" rot="R180"/>
 <text x="-6.35" y="8.89" size="1.27" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
 <wire x1="-7.62" y1="0" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
@@ -7993,14 +7993,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="V+" x="-12.7" y="2.54" length="middle"/>
-<pin name="V-" x="-12.7" y="0" length="middle"/>
-<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VDD" x="-12.7" y="-5.08" length="middle"/>
-<pin name="SCL" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="A0" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="A1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="V+" x="-10.16" y="2.54" length="short"/>
+<pin name="V-" x="-10.16" y="0" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="VDD" x="-10.16" y="-5.08" length="short"/>
+<pin name="SCL" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="SDA" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="A0" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="A1" x="10.16" y="2.54" length="short" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.27" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
@@ -8059,14 +8059,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="32K" x="-12.7" y="2.54" length="middle"/>
-<pin name="VCC" x="-12.7" y="0" length="middle"/>
-<pin name="SQW" x="-12.7" y="-2.54" length="middle"/>
-<pin name="/RST" x="-12.7" y="-5.08" length="middle"/>
-<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="VBAT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="SDA" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="32K" x="-10.16" y="2.54" length="short"/>
+<pin name="VCC" x="-10.16" y="0" length="short"/>
+<pin name="SQW" x="-10.16" y="-2.54" length="short"/>
+<pin name="/RST" x="-10.16" y="-5.08" length="short"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="VBAT" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="SDA" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="SCL" x="10.16" y="2.54" length="short" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.27" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
