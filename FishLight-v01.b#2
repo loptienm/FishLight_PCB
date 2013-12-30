@@ -1124,6 +1124,57 @@ design rules under a new name.</description>
 <element name="R55" library="SparkFun-Resistors" package="0603-RES" value="10K" x="-22" y="-231"/>
 <element name="R56" library="SparkFun-Resistors" package="0603-RES" value="10K" x="-22" y="-234"/>
 <element name="R57" library="SparkFun-Resistors" package="0603-RES" value="10K" x="-22" y="-237"/>
+<element name="C26" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-240">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-240" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C27" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-243">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-243" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C28" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-246">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-246" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C29" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-249">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-249" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C30" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-252">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-252" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C31" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-255">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-255" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C32" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-258">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-258" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C33" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-261">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-261" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C34" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-264">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-264" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C35" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-267">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-267" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C36" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-270">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-270" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C37" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-273">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-273" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C38" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-276">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-276" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C39" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-279">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-279" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C40" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-282">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-282" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C41" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-285">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-285" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="C42" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-22" y="-288">
+<attribute name="PROD_ID" value="CAP-00810" x="-22" y="-288" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="SDA">
@@ -1339,6 +1390,23 @@ design rules under a new name.</description>
 <contactref element="R54" pad="1"/>
 <contactref element="U$30" pad="1"/>
 <contactref element="U$29" pad="6"/>
+<contactref element="C30" pad="2"/>
+<contactref element="C40" pad="2"/>
+<contactref element="C35" pad="2"/>
+<contactref element="C41" pad="2"/>
+<contactref element="C26" pad="2"/>
+<contactref element="C27" pad="2"/>
+<contactref element="C28" pad="2"/>
+<contactref element="C29" pad="2"/>
+<contactref element="C31" pad="2"/>
+<contactref element="C32" pad="2"/>
+<contactref element="C33" pad="2"/>
+<contactref element="C34" pad="2"/>
+<contactref element="C36" pad="2"/>
+<contactref element="C37" pad="2"/>
+<contactref element="C38" pad="2"/>
+<contactref element="C39" pad="2"/>
+<contactref element="C42" pad="2"/>
 <wire x1="-18.05" y1="-223.05" x2="-22.85" y2="-228" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.65" y1="-219.05" x2="-18.05" y2="-223.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.85" y1="-216" x2="-16.65" y2="-219.05" width="0" layer="19" extent="1-1"/>
@@ -1353,6 +1421,23 @@ design rules under a new name.</description>
 <wire x1="-12.05" y1="-191.05" x2="-12.65" y2="-193.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.05" y1="-191.05" x2="-12.05" y2="-191.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.85" y1="-197" x2="-12.65" y2="-193.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-240" x2="-22.85" y2="-228" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-243" x2="-21.15" y2="-240" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-246" x2="-21.15" y2="-243" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-249" x2="-21.15" y2="-246" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-252" x2="-21.15" y2="-249" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-255" x2="-21.15" y2="-252" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-258" x2="-21.15" y2="-255" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-261" x2="-21.15" y2="-258" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-264" x2="-21.15" y2="-261" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-267" x2="-21.15" y2="-264" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-270" x2="-21.15" y2="-267" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-273" x2="-21.15" y2="-270" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-276" x2="-21.15" y2="-273" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-279" x2="-21.15" y2="-276" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-282" x2="-21.15" y2="-279" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-285" x2="-21.15" y2="-282" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.15" y1="-288" x2="-21.15" y2="-285" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.85" y1="-178" x2="-12.05" y2="-191.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.85" y1="-174" x2="-11.85" y2="-178" width="0" layer="19" extent="1-1"/>
 <wire x1="-12.05" y1="-172.05" x2="-7.85" y2="-174" width="0" layer="19" extent="1-1"/>
@@ -1572,8 +1657,42 @@ design rules under a new name.</description>
 <contactref element="R57" pad="1"/>
 <contactref element="R56" pad="1"/>
 <contactref element="R55" pad="1"/>
+<contactref element="C26" pad="1"/>
+<contactref element="C36" pad="1"/>
+<contactref element="C31" pad="1"/>
+<contactref element="C41" pad="1"/>
+<contactref element="C42" pad="1"/>
+<contactref element="C27" pad="1"/>
+<contactref element="C28" pad="1"/>
+<contactref element="C29" pad="1"/>
+<contactref element="C30" pad="1"/>
+<contactref element="C32" pad="1"/>
+<contactref element="C33" pad="1"/>
+<contactref element="C34" pad="1"/>
+<contactref element="C35" pad="1"/>
+<contactref element="C37" pad="1"/>
+<contactref element="C38" pad="1"/>
+<contactref element="C39" pad="1"/>
+<contactref element="C40" pad="1"/>
 <wire x1="-22.85" y1="-234" x2="-22.85" y2="-231" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.85" y1="-237" x2="-22.85" y2="-234" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-240" x2="-22.85" y2="-237" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-243" x2="-22.85" y2="-240" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-246" x2="-22.85" y2="-243" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-249" x2="-22.85" y2="-246" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-252" x2="-22.85" y2="-249" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-255" x2="-22.85" y2="-252" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-258" x2="-22.85" y2="-255" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-261" x2="-22.85" y2="-258" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-264" x2="-22.85" y2="-261" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-267" x2="-22.85" y2="-264" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-270" x2="-22.85" y2="-267" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-273" x2="-22.85" y2="-270" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-276" x2="-22.85" y2="-273" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-279" x2="-22.85" y2="-276" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-282" x2="-22.85" y2="-279" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-285" x2="-22.85" y2="-282" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.85" y1="-288" x2="-22.85" y2="-285" width="0" layer="19" extent="1-1"/>
 <wire x1="-19" y1="-228.75" x2="-22.85" y2="-231" width="0" layer="19" extent="1-1"/>
 <wire x1="-16" y1="-219.05" x2="-19" y2="-228.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-15" y1="-216.75" x2="-16" y2="-219.05" width="0" layer="19" extent="1-1"/>

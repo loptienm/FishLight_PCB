@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -118,10 +118,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="85.09" y2="0" width="0" layer="20"/>
-<wire x1="85.09" y1="0" x2="85.09" y2="85.09" width="0" layer="20"/>
-<wire x1="85.09" y1="85.09" x2="0" y2="85.08" width="0" layer="20"/>
-<wire x1="0" y1="85.08" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="83.82" y2="0" width="0" layer="20"/>
+<wire x1="83.82" y1="0" x2="83.82" y2="83.82" width="0" layer="20"/>
+<wire x1="83.82" y1="83.82" x2="0" y2="83.81" width="0" layer="20"/>
+<wire x1="0" y1="83.81" x2="0" y2="0" width="0" layer="20"/>
 <text x="38.1" y="31.94" size="1.27" layer="51" ratio="15" rot="R90">Vias to gnd</text>
 <text x="38.1" y="15.24" size="1.27" layer="51" ratio="15" rot="R90">Vias to gnd</text>
 <text x="69.85" y="30.21" size="1.27" layer="51" ratio="15" rot="R90">Vias to gnd</text>
@@ -131,10 +131,10 @@
 <text x="7.08" y="56.96" size="1.27" layer="21" ratio="15" rot="R90">Temp Sensors</text>
 <text x="17.78" y="63.5" size="1.27" layer="21" ratio="15" rot="R90">Fans</text>
 <text x="12" y="4" size="1.778" layer="51" font="vector" ratio="15">MAKE THIS BIGGER</text>
-<dimension x1="3.81" y1="81.28" x2="3.81" y2="3.81" x3="-1.27" y3="42.545" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="3.81" y1="81.28" x2="81.28" y2="81.28" x3="42.545" y3="86.36" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="0" y1="85.08" x2="0" y2="0" x3="-5.08" y3="42.54" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="0" y1="85.08" x2="85.09" y2="85.09" x3="42.544425" y3="89.995009375" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="3.81" y1="80.01" x2="3.81" y2="3.81" x3="-1.27" y3="41.91" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="3.81" y1="80.01" x2="80.01" y2="80.01" x3="41.91" y3="85.09" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="0" y1="83.81" x2="83.82" y2="83.82" x3="41.90939375" y3="88.895" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="0" y1="83.81" x2="0" y2="0" x3="-5.08" y3="41.905" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
@@ -845,9 +845,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="3.81" y="81.28"/>
-<element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="81.28" y="81.28"/>
-<element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="81.28" y="3.81"/>
+<element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="3.81" y="80.01"/>
+<element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="80.01" y="80.01"/>
+<element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="80.01" y="3.81"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="3.81" y="3.81"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="34" y="-31"/>
 <element name="U3" library="Mikes-Stuff" package="TO-263" value="CAT4101TO-263" x="68.9" y="32.98" rot="R270"/>
