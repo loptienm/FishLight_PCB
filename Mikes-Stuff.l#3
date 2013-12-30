@@ -8041,16 +8041,16 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="NC7SZ373">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="LE" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND" x="-12.7" y="0" length="middle"/>
-<pin name="D" x="-12.7" y="-2.54" length="middle"/>
-<pin name="Q" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="/OE" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="LE" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="0" length="short"/>
+<pin name="D" x="-10.16" y="-2.54" length="short"/>
+<pin name="Q" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="VCC" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="/OE" x="7.62" y="2.54" length="short" rot="R180"/>
 <text x="-6.35" y="6.35" size="1.778" layer="94">&gt;NAME</text>
 <text x="-6.35" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
