@@ -131,6 +131,10 @@
 <text x="7.08" y="56.96" size="1.27" layer="21" ratio="15" rot="R90">Temp Sensors</text>
 <text x="17.78" y="63.5" size="1.27" layer="21" ratio="15" rot="R90">Fans</text>
 <text x="12" y="4" size="1.778" layer="51" font="vector" ratio="15">MAKE THIS BIGGER</text>
+<dimension x1="3.81" y1="81.28" x2="3.81" y2="3.81" x3="-1.27" y3="42.545" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="3.81" y1="81.28" x2="81.28" y2="81.28" x3="42.545" y3="86.36" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="0" y1="85.08" x2="0" y2="0" x3="-5.08" y3="42.54" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="0" y1="85.08" x2="85.09" y2="85.09" x3="42.544425" y3="89.995009375" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
