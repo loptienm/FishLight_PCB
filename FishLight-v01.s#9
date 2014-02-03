@@ -7905,21 +7905,21 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="162.56" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="167.64" x2="246.38" y2="167.64" width="0.2032" layer="91"/>
-<label x="241.3" y="167.64" size="1.778" layer="95"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="175.26" x2="246.38" y2="175.26" width="0.2032" layer="91"/>
+<label x="241.3" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LG3" class="0">
 <segment>
-<wire x1="241.3" y1="175.26" x2="246.38" y2="175.26" width="0.2032" layer="91"/>
-<label x="241.3" y="175.26" size="1.778" layer="95"/>
-<pinref part="JP9" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="LED"/>
 <wire x1="134.62" y1="160.02" x2="129.54" y2="160.02" width="0.2032" layer="91"/>
 <label x="129.54" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="167.64" x2="246.38" y2="167.64" width="0.2032" layer="91"/>
+<label x="241.3" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LR3" class="0">

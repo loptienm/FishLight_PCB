@@ -1969,18 +1969,18 @@ design rules under a new name.</description>
 <wire x1="47.69" y1="8.36" x2="81.01" y2="10.446" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED4">
-<contactref element="JP11" pad="1"/>
 <contactref element="U14" pad="2"/>
 <contactref element="R9" pad="1"/>
+<contactref element="JP11" pad="2"/>
 <wire x1="7.5" y1="18.87" x2="9.6" y2="19.42" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="18.796" x2="7.5" y2="18.87" width="0" layer="19" extent="16-16"/>
+<wire x1="3.08" y1="15.296" x2="7.5" y2="18.87" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED5">
-<contactref element="JP11" pad="2"/>
 <contactref element="U15" pad="2"/>
 <contactref element="R10" pad="1"/>
+<contactref element="JP12" pad="2"/>
+<wire x1="7.5" y1="15.35" x2="3.08" y2="26.98" width="0" layer="19" extent="16-16"/>
 <wire x1="9.6" y1="15.04" x2="7.5" y2="15.35" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="15.296" x2="7.5" y2="15.35" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED6">
 <contactref element="JP11" pad="3"/>
@@ -1990,25 +1990,25 @@ design rules under a new name.</description>
 <wire x1="3.08" y1="11.796" x2="7.49" y2="11.78" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED1">
-<contactref element="JP12" pad="1"/>
 <contactref element="U11" pad="2"/>
 <contactref element="R6" pad="1"/>
+<contactref element="JP20" pad="3"/>
 <wire x1="7.5" y1="30.83" x2="9.6" y2="32.56" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="30.48" x2="7.5" y2="30.83" width="0" layer="19" extent="16-16"/>
+<wire x1="3.08" y1="35.09" x2="7.5" y2="30.83" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED2">
-<contactref element="JP12" pad="2"/>
 <contactref element="U12" pad="2"/>
 <contactref element="R7" pad="1"/>
+<contactref element="JP12" pad="3"/>
 <wire x1="7.5" y1="27.21" x2="9.6" y2="28.18" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="26.98" x2="7.5" y2="27.21" width="0" layer="19" extent="16-16"/>
+<wire x1="3.08" y1="23.48" x2="7.5" y2="27.21" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED3">
-<contactref element="JP12" pad="3"/>
 <contactref element="U13" pad="2"/>
 <contactref element="R8" pad="1"/>
+<contactref element="JP11" pad="1"/>
 <wire x1="7.5" y1="23.59" x2="9.6" y2="23.8" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="23.48" x2="7.5" y2="23.59" width="0" layer="19" extent="16-16"/>
+<wire x1="3.08" y1="18.796" x2="7.5" y2="23.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="A7">
 <contactref element="U1" pad="5"/>
@@ -2259,9 +2259,9 @@ design rules under a new name.</description>
 <signal name="LED8">
 <contactref element="U28" pad="2"/>
 <contactref element="R15" pad="1"/>
-<contactref element="JP20" pad="3"/>
+<contactref element="JP12" pad="1"/>
 <wire x1="7.42" y1="34.66" x2="9.63" y2="37.07" width="0" layer="19" extent="1-16"/>
-<wire x1="3.08" y1="35.09" x2="7.42" y2="34.66" width="0" layer="19" extent="16-16"/>
+<wire x1="3.08" y1="30.48" x2="7.42" y2="34.66" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LG8">
 <contactref element="U24" pad="5"/>

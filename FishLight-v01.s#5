@@ -6166,9 +6166,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="JP29" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
 <part name="JP33" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
 <part name="JP34" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
-<part name="R58" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R59" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R60" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R58" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
+<part name="R59" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
+<part name="R60" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
 </parts>
 <sheets>
 <sheet>
