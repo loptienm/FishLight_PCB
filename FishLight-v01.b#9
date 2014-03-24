@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -691,6 +691,36 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DIODE-1N4001-KIT">
+<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<pad name="A" x="-5.08" y="0" drill="1" diameter="1.9812" stop="no"/>
+<pad name="C" x="5.08" y="0" drill="1" diameter="1.9812" stop="no"/>
+<text x="-2.921" y="1.651" size="0.6096" layer="25">&gt;Name</text>
+<text x="-2.921" y="-0.508" size="1.016" layer="21" ratio="12">&gt;Value</text>
+<circle x="-5.08" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="5.08" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="-5.08" y="0" radius="0.9906" width="0" layer="30"/>
+<circle x="5.08" y="0" radius="0.9906" width="0" layer="30"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1216,6 +1246,16 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C43" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="53.69" y="27.72" rot="MR0">
 <attribute name="PROD_ID" value="CAP-00810" x="53.69" y="27.72" size="1.778" layer="28" ratio="15" rot="MR0" display="off"/>
 </element>
+<element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-43.18"/>
+<element name="D2" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-48.26"/>
+<element name="D3" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-53.34"/>
+<element name="D4" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-58.42"/>
+<element name="D5" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-63.5"/>
+<element name="D6" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-68.58"/>
+<element name="D7" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-73.66"/>
+<element name="D8" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-78.74"/>
+<element name="D9" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-83.82"/>
+<element name="D10" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-88.9"/>
 </elements>
 <signals>
 <signal name="SDA">
@@ -3184,189 +3224,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.48" y1="41.95" x2="7.96" y2="41.95" width="0.254" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,708ffcd3f0df7c83"/>
-<approved hash="19,1,887f15c319cf8473"/>
-<approved hash="19,1,66f3f21ffe136aff"/>
-<approved hash="19,1,9c2708bb04b7902b"/>
-<approved hash="19,1,924b1fe713eb9e47"/>
-<approved hash="19,1,32e596099a0c3ee0"/>
-<approved hash="19,1,c8316cad60a8c434"/>
-<approved hash="19,1,249998c594c0289c"/>
-<approved hash="19,1,c65d7bf177f4ca58"/>
-<approved hash="19,1,dc6971d57dd0d06c"/>
-<approved hash="19,1,0eee5a02560602ea"/>
-<approved hash="19,1,f43aa0a6aca2f83e"/>
-<approved hash="19,1,e062bddeb1daec66"/>
-<approved hash="19,1,189254ce58ca1496"/>
-<approved hash="19,1,fa56b7fabbfef652"/>
-<approved hash="19,1,da907e7c7270d69c"/>
-<approved hash="19,1,204484d888d42c48"/>
-<approved hash="19,1,341c99a095ac3810"/>
-<approved hash="19,1,ccec70b07cbcc0e0"/>
-<approved hash="19,1,2e2893849f882224"/>
-<approved hash="19,1,2ee8ca44c64022ec"/>
-<approved hash="19,1,3a30a79cab983634"/>
-<approved hash="19,1,3014dc68d06c3c10"/>
-<approved hash="19,1,5758b3f4bff05b5c"/>
-<approved hash="19,1,4c7ca9c0a5c44078"/>
-<approved hash="19,1,5e2e13821f8e5222"/>
-<approved hash="19,1,4af67e5a725646fa"/>
-<approved hash="19,1,28621dde11d2246e"/>
-<approved hash="19,1,334607ea0be63f4a"/>
-<approved hash="19,1,540a6876647a5806"/>
-<approved hash="19,1,e803847f8803e47f"/>
-<approved hash="19,1,946bf1d7fdab9817"/>
-<approved hash="19,1,f6ff92539e2ffa83"/>
-<approved hash="19,1,e227ff8bf3f7ee5b"/>
-<approved hash="19,1,8f4febe3e79f8333"/>
-<approved hash="19,1,6b35bf99b3956739"/>
-<approved hash="19,1,1285c629ca251e89"/>
-<approved hash="19,1,7011a5ada9a17c1d"/>
-<approved hash="19,1,0c79d005dc090075"/>
-<approved hash="19,1,065dabf1a7fd0a51"/>
-<approved hash="19,1,84000ae8071389fb"/>
-<approved hash="19,1,76e49c4a904e7ae0"/>
-<approved hash="19,1,0ea6623a6e3e02a2"/>
-<approved hash="19,1,f8026cee60eaf406"/>
-<approved hash="19,1,e2ce76927a96eeca"/>
-<approved hash="19,1,05fa9856945209fe"/>
-<approved hash="19,1,1bde8e62826617da"/>
-<approved hash="19,1,c7c422782e7ccbc0"/>
-<approved hash="19,1,3ed4da88d68c32d0"/>
-<approved hash="19,1,d9e0344c3848d5e4"/>
-<approved hash="19,1,d2bcce20c224deb8"/>
-<approved hash="19,1,2418c0f4ccf0281c"/>
-<approved hash="19,1,401634fa38c64c2a"/>
-<approved hash="19,1,b6b23a2e3612ba8e"/>
-<approved hash="19,1,a3cad676da4aaff6"/>
-<approved hash="19,1,5ada2e8622ba56e6"/>
-<approved hash="19,1,bdeec042cc7eb1d2"/>
-<approved hash="19,1,8c2c68c064cf8023"/>
-<approved hash="19,1,96e072bc7eb39aef"/>
-<approved hash="19,1,71d49c7890777ddb"/>
-<approved hash="19,1,7a8866146a1b7687"/>
-<approved hash="19,1,6ff08a4c864363ff"/>
-<approved hash="19,1,31d1bc7db0793dd5"/>
-<approved hash="19,1,3bf5c789cb8d37f1"/>
-<approved hash="19,1,5cb9a815a41150bd"/>
-<approved hash="19,1,479db221be254b99"/>
-<approved hash="19,1,52659ef992fd5e61"/>
-<approved hash="19,1,45cf9863946f49c3"/>
-<approved hash="19,1,4febe397ef9b43e7"/>
-<approved hash="19,1,267bbae7b6eb2a77"/>
-<approved hash="19,1,3383963f9a333f8f"/>
-<approved hash="19,1,28a78c0b800724ab"/>
-<approved hash="19,1,f4ad40014c3cf890"/>
-<approved hash="19,1,99c55469585495f8"/>
-<approved hash="19,1,fa7176ed7ad0f64c"/>
-<approved hash="19,1,ef895a355608e3b4"/>
-<approved hash="19,1,93e12f9d23a09fdc"/>
-<approved hash="19,1,a7d70bab07aeabd2"/>
-<approved hash="19,1,c09b64376832cc9e"/>
-<approved hash="19,1,adf3705f7c5aa1f6"/>
-<approved hash="19,1,ce4752db5edec242"/>
-<approved hash="19,1,dbbf7e037206d7ba"/>
-<approved hash="19,16,3914b4feb2883f62"/>
-<approved hash="19,16,5d4e9816946b5133"/>
-<approved hash="19,16,c4d4128a1ef7c8a9"/>
-<approved hash="19,16,41af9c6990144dd2"/>
-<approved hash="19,16,48fc96c29abf4481"/>
-<approved hash="19,16,d0680f280355dc15"/>
-<approved hash="19,16,eaa835683915e6d5"/>
-<approved hash="19,16,0120dcf0d08d0d5d"/>
-<approved hash="19,16,1be2dab2d6cf179f"/>
-<approved hash="19,16,7493a345af3878ee"/>
-<approved hash="19,16,7971a443a83e750c"/>
-<approved hash="19,16,3a3ce502e97f3641"/>
-<approved hash="19,16,a05b7f1b7366ac26"/>
-<approved hash="19,16,2c33ca03c67e204e"/>
-<approved hash="19,16,a62771f17d8caa5a"/>
-<approved hash="19,16,b1246cda60a7bd59"/>
-<approved hash="19,16,b76d66176a6abb10"/>
-<approved hash="19,16,887f15c319cf8473"/>
-<approved hash="19,16,708ffcd3f0df7c83"/>
-<approved hash="19,16,9c2708bb04b7902b"/>
-<approved hash="19,16,66f3f21ffe136aff"/>
-<approved hash="19,16,924b1fe713eb9e47"/>
-<approved hash="19,16,249998c594c0289c"/>
-<approved hash="19,16,32e596099a0c3ee0"/>
-<approved hash="19,16,c8316cad60a8c434"/>
-<approved hash="19,16,dc6971d57dd0d06c"/>
-<approved hash="19,16,c65d7bf177f4ca58"/>
-<approved hash="19,16,189254ce58ca1496"/>
-<approved hash="19,16,fa56b7fabbfef652"/>
-<approved hash="19,16,e062bddeb1daec66"/>
-<approved hash="19,16,f43aa0a6aca2f83e"/>
-<approved hash="19,16,0eee5a02560602ea"/>
-<approved hash="19,16,da907e7c7270d69c"/>
-<approved hash="19,16,204484d888d42c48"/>
-<approved hash="19,16,341c99a095ac3810"/>
-<approved hash="19,16,ccec70b07cbcc0e0"/>
-<approved hash="19,16,2e2893849f882224"/>
-<approved hash="19,16,7af22a31b73b23f4"/>
-<approved hash="19,16,3014dc68d06c3c10"/>
-<approved hash="19,16,3a30a79cab983634"/>
-<approved hash="19,16,5758b3f4bff05b5c"/>
-<approved hash="19,16,4c7ca9c0a5c44078"/>
-<approved hash="19,16,5e2e13821f8e5222"/>
-<approved hash="19,16,334607ea0be63f4a"/>
-<approved hash="19,16,540a6876647a5806"/>
-<approved hash="19,16,aee416277b2acfe5"/>
-<approved hash="19,16,28621dde11d2246e"/>
-<approved hash="19,16,946bf1d7fdab9817"/>
-<approved hash="19,16,e227ff8bf3f7ee5b"/>
-<approved hash="19,16,e803847f8803e47f"/>
-<approved hash="19,16,8f4febe3e79f8333"/>
-<approved hash="19,16,929e425d1f2c8be3"/>
-<approved hash="19,16,c6978e54c3567799"/>
-<approved hash="19,16,7011a5ada9a17c1d"/>
-<approved hash="19,16,6b35bf99b3956739"/>
-<approved hash="19,16,0c79d005dc090075"/>
-<approved hash="19,16,065dabf1a7fd0a51"/>
-<approved hash="19,16,84000ae8071389fb"/>
-<approved hash="19,16,76e49c4a904e7ae0"/>
-<approved hash="19,16,1bde8e62826617da"/>
-<approved hash="19,16,f8026cee60eaf406"/>
-<approved hash="19,16,e2ce76927a96eeca"/>
-<approved hash="19,16,05fa9856945209fe"/>
-<approved hash="19,16,0ea6623a6e3e02a2"/>
-<approved hash="19,16,c7c422782e7ccbc0"/>
-<approved hash="19,16,3ed4da88d68c32d0"/>
-<approved hash="19,16,2418c0f4ccf0281c"/>
-<approved hash="19,16,d2bcce20c224deb8"/>
-<approved hash="19,16,d9e0344c3848d5e4"/>
-<approved hash="19,16,a3cad676da4aaff6"/>
-<approved hash="19,16,bdeec042cc7eb1d2"/>
-<approved hash="19,16,b6b23a2e3612ba8e"/>
-<approved hash="19,16,5ada2e8622ba56e6"/>
-<approved hash="19,16,401634fa38c64c2a"/>
-<approved hash="19,16,96e072bc7eb39aef"/>
-<approved hash="19,16,7a8866146a1b7687"/>
-<approved hash="19,16,71d49c7890777ddb"/>
-<approved hash="19,16,8c2c68c064cf8023"/>
-<approved hash="19,16,6ff08a4c864363ff"/>
-<approved hash="19,16,31d1bc7db0793dd5"/>
-<approved hash="19,16,479db221be254b99"/>
-<approved hash="19,16,52659ef992fd5e61"/>
-<approved hash="19,16,5cb9a815a41150bd"/>
-<approved hash="19,16,3bf5c789cb8d37f1"/>
-<approved hash="19,16,45cf9863946f49c3"/>
-<approved hash="19,16,4febe397ef9b43e7"/>
-<approved hash="19,16,267bbae7b6eb2a77"/>
-<approved hash="19,16,28a78c0b800724ab"/>
-<approved hash="19,16,3383963f9a333f8f"/>
-<approved hash="19,16,fa7176ed7ad0f64c"/>
-<approved hash="19,16,93e12f9d23a09fdc"/>
-<approved hash="19,16,f4ad40014c3cf890"/>
-<approved hash="19,16,99c55469585495f8"/>
-<approved hash="19,16,ef895a355608e3b4"/>
-<approved hash="19,16,adf3705f7c5aa1f6"/>
-<approved hash="19,16,c09b64376832cc9e"/>
-<approved hash="19,16,dbbf7e037206d7ba"/>
-<approved hash="19,16,a7d70bab07aeabd2"/>
-<approved hash="19,16,ce4752db5edec242"/>
-</errors>
 </board>
 </drawing>
 </eagle>

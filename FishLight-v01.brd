@@ -707,36 +707,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="SparkFun-DiscreteSemi">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="DIODE-1N4001-KIT">
-<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
-<pad name="A" x="-5.08" y="0" drill="1" diameter="1.9812" stop="no"/>
-<pad name="C" x="5.08" y="0" drill="1" diameter="1.9812" stop="no"/>
-<text x="-2.921" y="1.651" size="0.6096" layer="25">&gt;Name</text>
-<text x="-2.921" y="-0.508" size="1.016" layer="21" ratio="12">&gt;Value</text>
-<circle x="-5.08" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="5.08" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="-5.08" y="0" radius="0.9906" width="0" layer="30"/>
-<circle x="5.08" y="0" radius="0.9906" width="0" layer="30"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1265,16 +1235,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C43" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="53.69" y="27.72" rot="MR0">
 <attribute name="PROD_ID" value="CAP-00810" x="53.69" y="27.72" size="1.778" layer="28" ratio="15" rot="MR0" display="off"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-43.18"/>
-<element name="D2" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-48.26"/>
-<element name="D3" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-53.34"/>
-<element name="D4" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-58.42"/>
-<element name="D5" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-63.5"/>
-<element name="D6" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-68.58"/>
-<element name="D7" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-73.66"/>
-<element name="D8" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-78.74"/>
-<element name="D9" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-83.82"/>
-<element name="D10" library="SparkFun-DiscreteSemi" package="DIODE-1N4001-KIT" value="" x="-1.27" y="-88.9"/>
 </elements>
 <signals>
 <signal name="SDA">
