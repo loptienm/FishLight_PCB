@@ -10935,6 +10935,16 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <technology name=""/>
 </technologies>
 </device>
+<device name="EXT" package="1X03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
