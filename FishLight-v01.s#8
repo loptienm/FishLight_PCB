@@ -8412,9 +8412,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="109.22" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="177.8" x2="246.38" y2="177.8" width="0.2032" layer="91"/>
-<label x="241.3" y="177.8" size="1.778" layer="95"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="175.26" x2="246.38" y2="175.26" width="0.2032" layer="91"/>
+<label x="241.3" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LR2" class="0">
@@ -8460,9 +8460,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="142.24" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="175.26" x2="246.38" y2="175.26" width="0.2032" layer="91"/>
-<label x="241.3" y="175.26" size="1.778" layer="95"/>
+<pinref part="JP9" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="177.8" x2="246.38" y2="177.8" width="0.2032" layer="91"/>
+<label x="241.3" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LG3" class="0">
