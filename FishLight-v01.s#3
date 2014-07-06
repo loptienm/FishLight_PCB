@@ -5452,15 +5452,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="C22" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="JP17" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP19" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP21" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP22" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP23" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP24" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP25" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP26" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
-<part name="JP27" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
+<part name="JP17" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP19" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP21" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP22" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP23" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP24" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP25" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP26" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
+<part name="JP27" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U33" library="SparkFun-Electromechanical" deviceset="RELAY-SOLIDSTATE" device="PTH"/>
@@ -5537,7 +5537,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="LED10" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="R44" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="R45" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="JP28" library="Mikes-Stuff" deviceset="M02" device="3.5MM" value="M023.5MM"/>
+<part name="JP28" library="Mikes-Stuff" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="U48" library="Mikes-Stuff" deviceset="NC7SZ373" device="TSSOP-6"/>
 <part name="Q11" library="Mikes-Stuff" deviceset="RK7002B" device="SOT23-3"/>
 <part name="R46" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="150"/>
