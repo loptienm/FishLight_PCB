@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2631,82 +2631,63 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="22"/>
 </signal>
 <signal name="DL8">
-<contactref element="U30" pad="23"/>
 <contactref element="U40" pad="3"/>
-<wire x1="44.865" y1="60.305" x2="58.56" y2="72.05" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL9">
-<contactref element="U30" pad="22"/>
 <contactref element="U41" pad="3"/>
-<wire x1="37.615" y1="60.275" x2="72.68" y2="71.79" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL10">
-<contactref element="U30" pad="21"/>
 <contactref element="U42" pad="3"/>
-<wire x1="37.615" y1="60.925" x2="65.58" y2="72" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL11">
-<contactref element="U30" pad="20"/>
 <contactref element="U43" pad="3"/>
+<contactref element="U30" pad="20"/>
 <wire x1="44.865" y1="67.425" x2="44.5" y2="72.01" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL12">
-<contactref element="U30" pad="19"/>
 <contactref element="U48" pad="3"/>
-<wire x1="59.812" y1="44.412" x2="44.865" y2="66.775" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL13">
-<contactref element="U30" pad="18"/>
 <contactref element="U47" pad="3"/>
-<wire x1="44.865" y1="66.125" x2="59.939" y2="53.539" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL14">
-<contactref element="U30" pad="17"/>
 <contactref element="U46" pad="3"/>
-<wire x1="44.865" y1="65.475" x2="59.812" y2="62.539" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="DL15">
-<contactref element="U30" pad="16"/>
 </signal>
 <signal name="DL7">
-<contactref element="U30" pad="2"/>
 <contactref element="U39" pad="3"/>
-<wire x1="37.615" y1="66.775" x2="51.54" y2="71.82" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="19"/>
+<wire x1="44.865" y1="66.775" x2="51.54" y2="71.82" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL6">
-<contactref element="U30" pad="3"/>
 <contactref element="U38" pad="3"/>
-<wire x1="37.615" y1="66.125" x2="37.58" y2="72" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="2"/>
+<wire x1="37.615" y1="66.775" x2="37.58" y2="72" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL5">
-<contactref element="U30" pad="4"/>
 <contactref element="U37" pad="3"/>
-<wire x1="37.615" y1="65.475" x2="30.55" y2="72.22" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="3"/>
+<wire x1="37.615" y1="66.125" x2="30.55" y2="72.22" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL4">
-<contactref element="U30" pad="5"/>
 <contactref element="U36" pad="3"/>
-<wire x1="23.57" y1="72.05" x2="37.615" y2="64.825" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="4"/>
+<wire x1="23.57" y1="72.05" x2="37.615" y2="65.475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL3">
-<contactref element="U30" pad="6"/>
 <contactref element="U35" pad="3"/>
-<wire x1="16.35" y1="72.17" x2="37.615" y2="64.175" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="5"/>
+<wire x1="16.35" y1="72.17" x2="37.615" y2="64.825" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL2">
-<contactref element="U30" pad="7"/>
 <contactref element="U34" pad="3"/>
-<wire x1="9.2" y1="72.06" x2="37.615" y2="63.525" width="0" layer="19" extent="1-16"/>
+<contactref element="U30" pad="6"/>
+<wire x1="9.2" y1="72.06" x2="37.615" y2="64.175" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL1">
-<contactref element="U30" pad="8"/>
 <contactref element="U45" pad="3"/>
-<wire x1="26.458" y1="45.35" x2="37.615" y2="62.875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DL0">
-<contactref element="U30" pad="9"/>
 <contactref element="U44" pad="3"/>
-<wire x1="27.595" y1="54.448" x2="37.615" y2="62.225" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$76">
 <contactref element="JP30" pad="1"/>
@@ -2745,72 +2726,72 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U29" pad="1"/>
 </signal>
 <signal name="LE8">
-<contactref element="U29" pad="23"/>
 <contactref element="U40" pad="1"/>
-<wire x1="37.245" y1="60.465" x2="59.86" y2="72.05" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="4"/>
+<wire x1="44.495" y1="65.635" x2="59.86" y2="72.05" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE9">
-<contactref element="U29" pad="22"/>
 <contactref element="U41" pad="1"/>
-<wire x1="44.495" y1="60.435" x2="73.98" y2="71.79" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="6"/>
+<wire x1="44.495" y1="64.335" x2="73.98" y2="71.79" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE10">
-<contactref element="U29" pad="21"/>
 <contactref element="U42" pad="1"/>
-<wire x1="44.495" y1="61.085" x2="66.88" y2="72" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="5"/>
+<wire x1="44.495" y1="64.985" x2="66.88" y2="72" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE11">
-<contactref element="U29" pad="20"/>
 <contactref element="U43" pad="1"/>
-<wire x1="37.245" y1="67.585" x2="45.8" y2="72.01" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="2"/>
+<wire x1="44.495" y1="66.935" x2="45.8" y2="72.01" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE12">
-<contactref element="U29" pad="19"/>
 <contactref element="U48" pad="1"/>
-<wire x1="59.812" y1="43.112" x2="37.245" y2="66.935" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="22"/>
+<wire x1="59.812" y1="43.112" x2="44.495" y2="60.435" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE13">
-<contactref element="U29" pad="18"/>
 <contactref element="U47" pad="1"/>
-<wire x1="37.245" y1="66.285" x2="59.939" y2="52.239" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="21"/>
+<wire x1="44.495" y1="61.085" x2="59.939" y2="52.239" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE14">
-<contactref element="U29" pad="17"/>
 <contactref element="U46" pad="1"/>
-<wire x1="37.245" y1="65.635" x2="59.812" y2="61.239" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="7"/>
+<wire x1="44.495" y1="63.685" x2="59.812" y2="61.239" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE15">
 <contactref element="U29" pad="16"/>
 </signal>
 <signal name="LE7">
-<contactref element="U29" pad="2"/>
 <contactref element="U39" pad="1"/>
-<wire x1="44.495" y1="66.935" x2="52.84" y2="71.82" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="3"/>
+<wire x1="44.495" y1="66.285" x2="52.84" y2="71.82" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE6">
-<contactref element="U29" pad="3"/>
 <contactref element="U38" pad="1"/>
-<wire x1="38.88" y1="72" x2="44.495" y2="66.285" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="20"/>
+<wire x1="37.245" y1="67.585" x2="38.88" y2="72" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE5">
-<contactref element="U29" pad="4"/>
 <contactref element="U37" pad="1"/>
-<wire x1="31.85" y1="72.22" x2="44.495" y2="65.635" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="19"/>
+<wire x1="37.245" y1="66.935" x2="31.85" y2="72.22" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE4">
-<contactref element="U29" pad="5"/>
 <contactref element="U36" pad="1"/>
-<wire x1="24.87" y1="72.05" x2="44.495" y2="64.985" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="18"/>
+<wire x1="24.87" y1="72.05" x2="37.245" y2="66.285" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE3">
-<contactref element="U29" pad="6"/>
 <contactref element="U35" pad="1"/>
-<wire x1="17.65" y1="72.17" x2="44.495" y2="64.335" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="17"/>
+<wire x1="17.65" y1="72.17" x2="37.245" y2="65.635" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE2">
-<contactref element="U29" pad="7"/>
 <contactref element="U34" pad="1"/>
-<wire x1="10.5" y1="72.06" x2="44.495" y2="63.685" width="0" layer="19" extent="16-16"/>
+<contactref element="U29" pad="23"/>
+<wire x1="10.5" y1="72.06" x2="37.245" y2="60.465" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LE1">
 <contactref element="U29" pad="8"/>
@@ -3251,6 +3232,33 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="57.648" y1="67.008" x2="57.64" y2="67" width="0.254" layer="16"/>
 </signal>
 <signal name="N$29">
+</signal>
+<signal name="N$7">
+<contactref element="U30" pad="7"/>
+</signal>
+<signal name="N$8">
+<contactref element="U30" pad="8"/>
+</signal>
+<signal name="N$9">
+<contactref element="U30" pad="9"/>
+</signal>
+<signal name="N$10">
+<contactref element="U30" pad="23"/>
+</signal>
+<signal name="N$11">
+<contactref element="U30" pad="22"/>
+</signal>
+<signal name="N$12">
+<contactref element="U30" pad="21"/>
+</signal>
+<signal name="N$19">
+<contactref element="U30" pad="18"/>
+</signal>
+<signal name="N$21">
+<contactref element="U30" pad="17"/>
+</signal>
+<signal name="N$56">
+<contactref element="U30" pad="16"/>
 </signal>
 </signals>
 </board>
