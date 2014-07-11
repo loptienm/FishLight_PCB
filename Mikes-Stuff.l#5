@@ -7210,7 +7210,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <circle x="-1" y="-1" radius="0.260765625" width="0.127" layer="21"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-2.54" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
