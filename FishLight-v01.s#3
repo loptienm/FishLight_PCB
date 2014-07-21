@@ -8795,13 +8795,22 @@ software</text>
 <wire x1="218.44" y1="-88.9" x2="218.44" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="180.34" x2="48.26" y2="180.34" width="0.2032" layer="91"/>
+<label x="43.18" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="104,1,7.62,180.34,U1,RAW,5V,,,"/>
+<approved hash="104,1,43.18,180.34,U1,VCC,3.3V,,,"/>
 <approved hash="104,1,43.18,170.18,U1,VDDA,3.3A,,,"/>
 <approved hash="106,1,43.18,170.18,3.3A,,,,,"/>
+<approved hash="106,1,43.18,180.34,3.3V,,,,,"/>
 <approved hash="113,1,238.083,179.265,JP9,,,,,"/>
 <approved hash="113,1,238.083,166.565,JP10,,,,,"/>
 <approved hash="113,1,221.657,163.635,JP11,,,,,"/>
