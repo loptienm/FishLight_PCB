@@ -8166,21 +8166,21 @@ software</text>
 <label x="53.34" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U29" gate="G$1" pin="I8"/>
-<wire x1="43.18" y1="-30.48" x2="48.26" y2="-30.48" width="0.2032" layer="91"/>
-<label x="43.18" y="-30.48" size="1.778" layer="95"/>
+<pinref part="U29" gate="G$1" pin="I15"/>
+<wire x1="43.18" y1="-48.26" x2="48.26" y2="-48.26" width="0.2032" layer="91"/>
+<label x="43.18" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LE1" class="0">
 <segment>
-<wire x1="7.62" y1="-45.72" x2="2.54" y2="-45.72" width="0.2032" layer="91"/>
-<label x="2.54" y="-45.72" size="1.778" layer="95"/>
-<pinref part="U29" gate="G$1" pin="I1"/>
-</segment>
-<segment>
 <pinref part="U45" gate="G$1" pin="LE"/>
 <wire x1="81.28" y1="-182.88" x2="76.2" y2="-182.88" width="0.2032" layer="91"/>
 <label x="76.2" y="-182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U29" gate="G$1" pin="I8"/>
+<wire x1="43.18" y1="-30.48" x2="48.26" y2="-30.48" width="0.2032" layer="91"/>
+<label x="43.18" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LE0" class="0">
@@ -8246,12 +8246,22 @@ software</text>
 <wire x1="7.62" y1="-71.12" x2="2.54" y2="-71.12" width="0.2032" layer="91"/>
 <label x="2.54" y="-71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A7"/>
+<wire x1="7.62" y1="160.02" x2="2.54" y2="160.02" width="0.2032" layer="91"/>
+<label x="2.54" y="160.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ECOM" class="0">
 <segment>
 <pinref part="U29" gate="G$1" pin="COM"/>
 <wire x1="7.62" y1="-27.94" x2="2.54" y2="-27.94" width="0.2032" layer="91"/>
 <label x="2.54" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D7"/>
+<wire x1="43.18" y1="160.02" x2="48.26" y2="160.02" width="0.2032" layer="91"/>
+<label x="43.18" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -8795,13 +8805,23 @@ software</text>
 <wire x1="218.44" y1="-88.9" x2="218.44" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="180.34" x2="48.26" y2="180.34" width="0.2032" layer="91"/>
+<label x="43.18" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="104,1,7.62,180.34,U1,RAW,5V,,,"/>
+<approved hash="104,1,43.18,180.34,U1,VCC,3.3V,,,"/>
 <approved hash="104,1,43.18,170.18,U1,VDDA,3.3A,,,"/>
 <approved hash="106,1,43.18,170.18,3.3A,,,,,"/>
+<approved hash="106,1,43.18,180.34,3.3V,,,,,"/>
+<approved hash="117,1,119.38,2.54,VCC,,,,,"/>
 <approved hash="113,1,238.083,179.265,JP9,,,,,"/>
 <approved hash="113,1,238.083,166.565,JP10,,,,,"/>
 <approved hash="113,1,221.657,163.635,JP11,,,,,"/>

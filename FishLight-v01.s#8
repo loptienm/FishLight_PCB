@@ -49,6 +49,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -57,6 +58,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -70,6 +72,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -82,8 +85,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -126,8 +133,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 </packages>
@@ -149,7 +156,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCC2">
+<symbol name="VCC">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
@@ -189,8 +196,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
 </symbols>
@@ -236,7 +243,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <deviceset name="VCC" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="VCC2" x="0" y="0"/>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4435,6 +4442,46 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="0" y="0" radius="0.508" width="0" layer="29"/>
 <circle x="0" y="0" radius="0.9398" width="0" layer="30"/>
 </package>
+<package name="1X03_SMD_RA_MALE_POST_SMALLER">
+<wire x1="3.81" y1="1.25" x2="-3.81" y2="1.25" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="1.25" x2="-3.81" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-1.25" x2="2.53" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="2.53" y1="-1.25" x2="-0.01" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="-0.01" y1="-1.25" x2="-2.55" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="-2.55" y1="-1.25" x2="-3.81" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-1.25" x2="3.81" y2="1.25" width="0.1778" layer="51"/>
+<wire x1="2.53" y1="-1.25" x2="2.53" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-0.01" y1="-1.25" x2="-0.01" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="-1.25" x2="-2.55" y2="-7.25" width="0.127" layer="51"/>
+<rectangle x1="-0.32" y1="4.15" x2="0.32" y2="5.95" layer="51"/>
+<rectangle x1="-2.86" y1="4.15" x2="-2.22" y2="5.95" layer="51"/>
+<rectangle x1="2.22" y1="4.15" x2="2.86" y2="5.95" layer="51"/>
+<smd name="1" x="-2.54" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="0" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<hole x="-1.27" y="0" drill="1.397"/>
+<hole x="1.27" y="0" drill="1.397"/>
+</package>
+<package name="1X03_SMD_RA_MALE_POST_SMALLEST">
+<wire x1="3.81" y1="1.25" x2="-3.81" y2="1.25" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="1.25" x2="-3.81" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-1.25" x2="2.53" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="2.53" y1="-1.25" x2="-0.01" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="-0.01" y1="-1.25" x2="-2.55" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="-2.55" y1="-1.25" x2="-3.81" y2="-1.25" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-1.25" x2="3.81" y2="1.25" width="0.1778" layer="51"/>
+<wire x1="2.53" y1="-1.25" x2="2.53" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-0.01" y1="-1.25" x2="-0.01" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="-1.25" x2="-2.55" y2="-7.25" width="0.127" layer="51"/>
+<rectangle x1="-0.32" y1="4.15" x2="0.32" y2="5.95" layer="51"/>
+<rectangle x1="-2.86" y1="4.15" x2="-2.22" y2="5.95" layer="51"/>
+<rectangle x1="2.22" y1="4.15" x2="2.86" y2="5.95" layer="51"/>
+<smd name="1" x="-2.54" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="0" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="5.07" dx="2.5" dy="1.27" layer="1" rot="R90"/>
+<hole x="-1.27" y="0" drill="1.3208"/>
+<hole x="1.27" y="0" drill="1.3208"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M03">
@@ -4670,6 +4717,26 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="JST-PTH-VERT" package="JST-3-PTH-VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X03_SMD_RA_MALE_POST_SMALLER" package="1X03_SMD_RA_MALE_POST_SMALLER">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X03_SMD_RA_MALE_POST_SMALLEST" package="1X03_SMD_RA_MALE_POST_SMALLEST">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5107,8 +5174,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
 <wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
 <wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C" x="0" y="0.877" dx="1" dy="1" layer="1" roundness="30"/>
+<smd name="A" x="0" y="-0.877" dx="1" dy="1" layer="1" roundness="30"/>
 <text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -5247,7 +5314,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
@@ -5582,9 +5648,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="JP29" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
 <part name="JP33" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
 <part name="JP34" library="Mikes-Stuff" deviceset="M02" device="POLAR"/>
-<part name="R58" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
-<part name="R59" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
-<part name="R60" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="560"/>
 <part name="JP1" library="Mikes-Stuff" deviceset="DS18B20" device="EXT"/>
 <part name="U49" library="Mikes-Stuff" deviceset="DS18B20" device="USOP8"/>
 <part name="C43" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
@@ -5633,12 +5696,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="91.44" y="-20.32" size="1.778" layer="91">LED: 2.2V, 20mA</text>
 <text x="5.08" y="55.88" size="1.778" layer="91" rot="R90">Water Level Sensors</text>
 <text x="177.8" y="121.92" size="1.778" layer="91">Pots</text>
+<text x="7.62" y="38.1" size="1.778" layer="91">Note: Add pullups on
+Spark Core pins in
+software</text>
 </plain>
 <instances>
 <instance part="GND" gate="1" x="101.6" y="5.08"/>
 <instance part="3.3V" gate="G$1" x="106.68" y="2.54"/>
 <instance part="5V" gate="G$1" x="114.3" y="2.54"/>
-<instance part="24V" gate="1" x="119.38" y="2.54"/>
+<instance part="24V" gate="G$1" x="119.38" y="2.54"/>
 <instance part="STANDOFF1" gate="G$1" x="129.54" y="5.08"/>
 <instance part="STANDOFF2" gate="G$1" x="134.62" y="5.08"/>
 <instance part="STANDOFF3" gate="G$1" x="139.7" y="5.08"/>
@@ -5661,7 +5727,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="C7" gate="G$1" x="160.02" y="101.6"/>
 <instance part="C8" gate="G$1" x="160.02" y="81.28"/>
 <instance part="C9" gate="G$1" x="160.02" y="60.96"/>
-<instance part="12V" gate="1" x="124.46" y="2.54"/>
+<instance part="12V" gate="G$1" x="124.46" y="2.54"/>
 <instance part="U16" gate="G$1" x="20.32" y="20.32"/>
 <instance part="C6" gate="G$1" x="33.02" y="10.16"/>
 <instance part="C12" gate="G$1" x="7.62" y="10.16"/>
@@ -5850,9 +5916,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="JP29" gate="G$1" x="10.16" y="83.82"/>
 <instance part="JP33" gate="G$1" x="10.16" y="68.58"/>
 <instance part="JP34" gate="G$1" x="10.16" y="53.34"/>
-<instance part="R58" gate="G$1" x="25.4" y="91.44" rot="R90"/>
-<instance part="R59" gate="G$1" x="25.4" y="76.2" rot="R90"/>
-<instance part="R60" gate="G$1" x="25.4" y="60.96" rot="R90"/>
 <instance part="JP1" gate="G$1" x="223.52" y="96.52"/>
 <instance part="U49" gate="G$1" x="223.52" y="78.74"/>
 <instance part="C43" gate="G$1" x="208.28" y="78.74"/>
@@ -6568,14 +6631,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <pinref part="JP33" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="68.58" x2="22.86" y2="68.58" width="0.2032" layer="91"/>
+<wire x1="17.78" y1="68.58" x2="25.4" y2="68.58" width="0.2032" layer="91"/>
 <label x="17.78" y="68.58" size="1.778" layer="95"/>
-<wire x1="22.86" y1="83.82" x2="22.86" y2="68.58" width="0.2032" layer="91"/>
+<wire x1="25.4" y1="83.82" x2="25.4" y2="68.58" width="0.2032" layer="91"/>
 <pinref part="JP34" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="53.34" x2="22.86" y2="53.34" width="0.2032" layer="91"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="53.34" width="0.2032" layer="91"/>
+<wire x1="17.78" y1="53.34" x2="25.4" y2="53.34" width="0.2032" layer="91"/>
+<wire x1="25.4" y1="68.58" x2="25.4" y2="53.34" width="0.2032" layer="91"/>
 <pinref part="JP29" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="83.82" x2="17.78" y2="83.82" width="0.2032" layer="91"/>
+<wire x1="25.4" y1="83.82" x2="17.78" y2="83.82" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <pinref part="C43" gate="G$1" pin="2"/>
@@ -7005,17 +7068,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="40.64" y="-127"/>
 <junction x="10.16" y="-106.68"/>
 <junction x="48.26" y="-127"/>
-</segment>
-<segment>
-<pinref part="R58" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="96.52" x2="38.1" y2="96.52" width="0.2032" layer="91"/>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="81.28" x2="38.1" y2="81.28" width="0.2032" layer="91"/>
-<wire x1="38.1" y1="96.52" x2="38.1" y2="81.28" width="0.2032" layer="91"/>
-<pinref part="R60" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="66.04" x2="38.1" y2="66.04" width="0.2032" layer="91"/>
-<wire x1="38.1" y1="81.28" x2="38.1" y2="66.04" width="0.2032" layer="91"/>
-<label x="30.48" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
@@ -7606,11 +7658,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <pinref part="JP34" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="55.88" x2="25.4" y2="55.88" width="0.2032" layer="91"/>
-<pinref part="R60" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="55.88" x2="30.48" y2="55.88" width="0.2032" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="27.94" y="55.88" size="1.778" layer="95"/>
+<wire x1="17.78" y1="55.88" x2="22.86" y2="55.88" width="0.2032" layer="91"/>
+<label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FAN1" class="0">
@@ -7715,11 +7764,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <pinref part="JP33" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="71.12" x2="25.4" y2="71.12" width="0.2032" layer="91"/>
-<pinref part="R59" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="71.12" x2="30.48" y2="71.12" width="0.2032" layer="91"/>
-<junction x="25.4" y="71.12"/>
-<label x="27.94" y="71.12" size="1.778" layer="95"/>
+<wire x1="17.78" y1="71.12" x2="22.86" y2="71.12" width="0.2032" layer="91"/>
+<label x="17.78" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -7730,11 +7776,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <pinref part="JP29" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="86.36" x2="25.4" y2="86.36" width="0.2032" layer="91"/>
-<pinref part="R58" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="86.36" x2="30.48" y2="86.36" width="0.2032" layer="91"/>
-<junction x="25.4" y="86.36"/>
-<label x="27.94" y="86.36" size="1.778" layer="95"/>
+<wire x1="17.78" y1="86.36" x2="22.86" y2="86.36" width="0.2032" layer="91"/>
+<label x="17.78" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -7757,6 +7800,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="111.76" y1="-106.68" x2="106.68" y2="-106.68" width="0.2032" layer="91"/>
 <label x="106.68" y="-106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I13"/>
+<wire x1="43.18" y1="-86.36" x2="48.26" y2="-86.36" width="0.2032" layer="91"/>
+<label x="43.18" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DL9" class="0">
 <segment>
@@ -7764,12 +7812,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="111.76" y1="-81.28" x2="106.68" y2="-81.28" width="0.2032" layer="91"/>
 <label x="106.68" y="-81.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I15"/>
+<wire x1="43.18" y1="-91.44" x2="48.26" y2="-91.44" width="0.2032" layer="91"/>
+<label x="43.18" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DL10" class="0">
 <segment>
 <pinref part="U42" gate="G$1" pin="D"/>
 <wire x1="111.76" y1="-55.88" x2="106.68" y2="-55.88" width="0.2032" layer="91"/>
 <label x="106.68" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I14"/>
+<wire x1="43.18" y1="-88.9" x2="48.26" y2="-88.9" width="0.2032" layer="91"/>
+<label x="43.18" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DL11" class="0">
@@ -7790,6 +7848,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="195.58" y1="-101.6" x2="190.5" y2="-101.6" width="0.2032" layer="91"/>
 <label x="190.5" y="-101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I8"/>
+<wire x1="43.18" y1="-73.66" x2="48.26" y2="-73.66" width="0.2032" layer="91"/>
+<label x="43.18" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DL13" class="0">
 <segment>
@@ -7797,12 +7860,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="195.58" y1="-127" x2="190.5" y2="-127" width="0.2032" layer="91"/>
 <label x="190.5" y="-127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I2"/>
+<wire x1="7.62" y1="-86.36" x2="2.54" y2="-86.36" width="0.2032" layer="91"/>
+<label x="2.54" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DL14" class="0">
 <segment>
 <pinref part="U46" gate="G$1" pin="D"/>
 <wire x1="195.58" y1="-152.4" x2="190.5" y2="-152.4" width="0.2032" layer="91"/>
 <label x="190.5" y="-152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I0"/>
+<wire x1="7.62" y1="-91.44" x2="2.54" y2="-91.44" width="0.2032" layer="91"/>
+<label x="2.54" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LE8" class="0">
@@ -7974,12 +8047,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="81.28" y1="-185.42" x2="76.2" y2="-185.42" width="0.2032" layer="91"/>
 <label x="76.2" y="-185.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I9"/>
+<wire x1="43.18" y1="-76.2" x2="48.26" y2="-76.2" width="0.2032" layer="91"/>
+<label x="43.18" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DL0" class="0">
 <segment>
 <pinref part="U44" gate="G$1" pin="D"/>
 <wire x1="81.28" y1="-162.56" x2="76.2" y2="-162.56" width="0.2032" layer="91"/>
 <label x="76.2" y="-162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U30" gate="G$1" pin="I10"/>
+<wire x1="43.18" y1="-78.74" x2="48.26" y2="-78.74" width="0.2032" layer="91"/>
+<label x="43.18" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LE7" class="0">
@@ -8743,67 +8826,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="218.44" y1="-88.9" x2="218.44" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I2"/>
-<wire x1="7.62" y1="-86.36" x2="2.54" y2="-86.36" width="0.2032" layer="91"/>
-<label x="2.54" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
+<net name="DL15" class="0">
 <segment>
 <pinref part="U30" gate="G$1" pin="I1"/>
 <wire x1="7.62" y1="-88.9" x2="2.54" y2="-88.9" width="0.2032" layer="91"/>
 <label x="2.54" y="-88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I0"/>
-<wire x1="7.62" y1="-91.44" x2="2.54" y2="-91.44" width="0.2032" layer="91"/>
-<label x="2.54" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I8"/>
-<wire x1="43.18" y1="-73.66" x2="48.26" y2="-73.66" width="0.2032" layer="91"/>
-<label x="43.18" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I9"/>
-<wire x1="43.18" y1="-76.2" x2="48.26" y2="-76.2" width="0.2032" layer="91"/>
-<label x="43.18" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I10"/>
-<wire x1="43.18" y1="-78.74" x2="48.26" y2="-78.74" width="0.2032" layer="91"/>
-<label x="43.18" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I13"/>
-<wire x1="43.18" y1="-86.36" x2="48.26" y2="-86.36" width="0.2032" layer="91"/>
-<label x="43.18" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I14"/>
-<wire x1="43.18" y1="-88.9" x2="48.26" y2="-88.9" width="0.2032" layer="91"/>
-<label x="43.18" y="-88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="U30" gate="G$1" pin="I15"/>
-<wire x1="43.18" y1="-91.44" x2="48.26" y2="-91.44" width="0.2032" layer="91"/>
-<label x="43.18" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -8811,4 +8838,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

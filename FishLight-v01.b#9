@@ -1551,7 +1551,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="55.758" y="28.409" size="0.4064" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="54.706" y="26.667" size="0.4064" layer="28" font="vector" rot="MR0"/>
 </element>
-<element name="U$1" library="Spark" package="SPARK_LOGO2" value="" x="29.84" y="31.63"/>
+<element name="U$1" library="Spark" package="SPARK_LOGO2" value="" x="30" y="32"/>
 </elements>
 <signals>
 <signal name="SDA">

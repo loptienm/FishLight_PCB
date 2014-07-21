@@ -6013,17 +6013,17 @@ software</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="124.46" x2="60.96" y2="124.46" width="0.2032" layer="91"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="129.54" width="0.2032" layer="91"/>
-<pinref part="R58" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="124.46" x2="76.2" y2="124.46" width="0.2032" layer="91"/>
-<wire x1="76.2" y1="124.46" x2="76.2" y2="129.54" width="0.2032" layer="91"/>
-<pinref part="R60" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="124.46" x2="91.44" y2="124.46" width="0.2032" layer="91"/>
-<wire x1="91.44" y1="124.46" x2="91.44" y2="129.54" width="0.2032" layer="91"/>
 <junction x="60.96" y="124.46"/>
+<junction x="60.96" y="129.54"/>
+<pinref part="R58" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="124.46" x2="91.44" y2="124.46" width="0.2032" layer="91"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R60" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="129.54" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<junction x="76.2" y="129.54"/>
 <junction x="76.2" y="124.46"/>
 <junction x="91.44" y="124.46"/>
-<junction x="60.96" y="129.54"/>
-<junction x="76.2" y="129.54"/>
 <junction x="91.44" y="129.54"/>
 </segment>
 <segment>
